@@ -3,6 +3,7 @@ import React from 'react';
 import { FetchStates, getStateName } from '../Actions/index';
 
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 const google = window.google;
 
@@ -60,7 +61,7 @@ class State extends React.Component {
                             <tbody>
                                 {this.props.StatesList ? this.props.StatesList.filter(state => this.props.search == "" || state.state.toLowerCase().includes(this.props.search)).map((state, index) => {
                                     return <tr key={index}>
-                                        <th scope="row" onClick={() => {this.props.getStateName(state.state)}} style={{cursor:'pointer'}}>{state.state}</th>
+                                        <th scope="row"  onClick={() => {this.props.getStateName(state.state)}} style={{cursor:'pointer'}}><Link to={"/district"}>{state.state}</Link></th>
                                         <td>{state.confirmed}</td>
                                         <td>{state.active}</td>
                                         <td>{state.recovered}</td>

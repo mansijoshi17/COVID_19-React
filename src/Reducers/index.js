@@ -1,6 +1,7 @@
 const INITIAL_STATE = {
     StatesList: null,
-    SelectedState: null
+    SelectedState: null,
+    DistrictList : null
 }
 
 
@@ -12,6 +13,9 @@ export const Reducer = (state = INITIAL_STATE, action) => {
             break;
         case "GET_STATE":
             state.SelectedState = action.payload
+            break;
+        case "FETCH_DISTRICT":
+             state.DistrictList = action.payload
             break;
         default:
             return state

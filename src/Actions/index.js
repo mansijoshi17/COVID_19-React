@@ -21,10 +21,25 @@ export function getStateName (val) {
     }
 }
 
+export const getDistricts = (val) => {
+      return {
+          type : "FETCH_DISTRICT",
+          payload : val
+      }
+}
+
 export function FetchStates () {
     return dispatch => {
         Axios.get("https://api.covid19india.org/data.json").then((data) => {
             dispatch(getStates(data.data.statewise.splice(1)))
+        })
+    }
+}
+
+export function FetchDistricts () {
+    return dispatch => {
+        Axios.get("https://api.covid19india.org/state_district_wise.json").then((data) => {
+            dispatch(getDistricts(data.data))
         })
     }
 }
