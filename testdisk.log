@@ -1,0 +1,1961 @@
+
+
+Thu Apr  2 21:10:51 2020
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 5.3.0-42-generic (#34~18.04.1-Ubuntu SMP Fri Feb 28 13:42:26 UTC 2020) x86_64
+Compiler: GCC 7.2
+ext2fs lib: 1.44.1, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       468877312 sectors
+/dev/sda: user_max   468877312 sectors
+/dev/sda: native_max 468877312 sectors
+/dev/sda: dco        468877312 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 240 GB / 223 GiB - CHS 29186 255 63, sector size=512 - WDC WDS240G2G0A-00JH30, S/N:1926AF806457, FW:UF510000
+
+Partition table type (auto): Intel
+Disk /dev/sda - 240 GB / 223 GiB - WDC WDS240G2G0A-00JH30
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=255 sector=63
+NTFS at 0/32/33
+NTFS at 63/221/31
+ 1 * HPFS - NTFS              0  32 33    63 221 30    1024000
+     NTFS, blocksize=4096, 524 MB / 500 MiB
+ 2 P HPFS - NTFS             63 221 31  6374  26 52  101373952
+     NTFS, blocksize=4096, 51 GB / 48 GiB
+ 3 E extended              6374  59 20  8366   3 21   31997954
+ 5 L Linux Swap            6374  59 22  8366   3 21   31997952
+     SWAP2 version 1, pagesize=4096, 16 GB / 15 GiB
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+ntfs_device_testdisk_io_ioctl() unimplemented
+
+
+dir_partition inode=5
+ 1 * HPFS - NTFS              0  32 33    63 221 30    1024000
+     NTFS, blocksize=4096, 524 MB / 500 MiB
+Directory /
+       5 dr-xr-xr-x     0      0         0 25-Jul-2019 13:18 .
+       5 dr-xr-xr-x     0      0         0 25-Jul-2019 13:18 ..
+      36 dr-xr-xr-x     0      0         0 25-Jul-2019 13:18 Boot
+     166 dr-xr-xr-x     0      0         0 25-Jul-2019 12:24 System Volume Information
+     161 -r--r--r--     0      0         1 15-Sep-2018 12:58 BOOTNXT
+     165 -r--r--r--     0      0      8192 26-Jul-2019 01:54 BOOTSECT.BAK
+     139 -r--r--r--     0      0    408810 25-Jul-2019 13:13 bootmgr
+
+
+dir_partition inode=2
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 19-Mar-2020 13:06 .
+       2 drwxr-xr-x     0      0      4096 19-Mar-2020 13:06 ..
+      11 drwx------     0      0     16384 21-Aug-2019 23:07 lost+found
+ 6553601 drwxr-xr-x     0      0     12288 27-Mar-2020 15:54 etc
+ 1048577 drwxr-xr-x     0      0      4096 28-Aug-2019 21:54 media
+ 9175041 drwxr-xr-x     0      0      4096  2-Mar-2020 11:55 var
+ 10223617 drwxr-xr-x     0      0      4096 19-Mar-2020 13:19 bin
+ 7864321 drwxr-xr-x     0      0      4096 19-Mar-2020 13:20 boot
+ 6291457 drwxr-xr-x     0      0      4096  6-Aug-2019 00:28 dev
+ 4063233 drwxr-xr-x     0      0      4096 28-Aug-2019 16:22 home
+ 1572865 drwxr-xr-x     0      0      4096 28-Aug-2019 16:23 lib
+ 1310721 drwxr-xr-x     0      0      4096  6-Aug-2019 00:28 lib64
+ 9699329 drwxr-xr-x     0      0      4096  6-Aug-2019 00:28 mnt
+ 2097153 drwxr-xr-x     0      0      4096 19-Mar-2020 15:05 opt
+ 8126465 drwxr-xr-x     0      0      4096 24-Apr-2018 14:04 proc
+ 4718593 drwx------     0      0      4096  4-Feb-2020 15:41 root
+ 4456449 drwxr-xr-x     0      0      4096 28-Aug-2019 16:21 run
+ 6422529 drwxr-xr-x     0      0     12288 19-Mar-2020 15:04 sbin
+  131073 drwxr-xr-x     0      0      4096  4-Feb-2020 15:41 snap
+  262145 drwxr-xr-x     0      0      4096 15-Oct-2019 14:59 srv
+ 6684673 drwxr-xr-x     0      0      4096 24-Apr-2018 14:04 sys
+ 8388609 drwxrwxrwt     0      0   1093632  2-Apr-2020 21:09 tmp
+ 1703937 drwxr-xr-x     0      0      4096  3-Sep-2019 13:27 usr
+      12 lrwxrwxrwx     0      0        29 19-Mar-2020 13:06 vmlinuz
+      17 lrwxrwxrwx     0      0        32 19-Mar-2020 13:06 initrd.img.old
+      14 lrwxrwxrwx     0      0        32 19-Mar-2020 13:06 initrd.img
+ 9961473 drwx------     0      0      4096 28-Aug-2019 11:24 .Trash-0
+ 4849665 drwxr-xr-x     0      0      4096 21-Aug-2019 23:09 cdrom
+X     14 lrwxrwxrwx     0      0        32 19-Mar-2020 13:06 initrd.img.875197
+      13 lrwxrwxrwx     0      0        29 19-Mar-2020 13:06 vmlinuz.old
+X     17 lrwxrwxrwx     0      0        32 19-Mar-2020 13:06 initrd.img.old.494330
+
+dir_partition inode=4063233
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /home
+ 4063233 drwxr-xr-x     0      0      4096 28-Aug-2019 16:22 .
+       2 drwxr-xr-x     0      0      4096 19-Mar-2020 13:06 ..
+ 4066275 drwxr-xr-x  1000   1000      4096 28-Aug-2019 16:14 thinkpad-cc
+ 4066314 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:23 thinkpad
+Directory /
+       2 drwxr-xr-x     0      0      4096 19-Mar-2020 13:06 .
+       2 drwxr-xr-x     0      0      4096 19-Mar-2020 13:06 ..
+      11 drwx------     0      0     16384 21-Aug-2019 23:07 lost+found
+ 6553601 drwxr-xr-x     0      0     12288 27-Mar-2020 15:54 etc
+ 1048577 drwxr-xr-x     0      0      4096 28-Aug-2019 21:54 media
+ 9175041 drwxr-xr-x     0      0      4096  2-Mar-2020 11:55 var
+ 10223617 drwxr-xr-x     0      0      4096 19-Mar-2020 13:19 bin
+ 7864321 drwxr-xr-x     0      0      4096 19-Mar-2020 13:20 boot
+ 6291457 drwxr-xr-x     0      0      4096  6-Aug-2019 00:28 dev
+ 4063233 drwxr-xr-x     0      0      4096 28-Aug-2019 16:22 home
+ 1572865 drwxr-xr-x     0      0      4096 28-Aug-2019 16:23 lib
+ 1310721 drwxr-xr-x     0      0      4096  6-Aug-2019 00:28 lib64
+ 9699329 drwxr-xr-x     0      0      4096  6-Aug-2019 00:28 mnt
+ 2097153 drwxr-xr-x     0      0      4096 19-Mar-2020 15:05 opt
+ 8126465 drwxr-xr-x     0      0      4096 24-Apr-2018 14:04 proc
+ 4718593 drwx------     0      0      4096  4-Feb-2020 15:41 root
+ 4456449 drwxr-xr-x     0      0      4096 28-Aug-2019 16:21 run
+ 6422529 drwxr-xr-x     0      0     12288 19-Mar-2020 15:04 sbin
+  131073 drwxr-xr-x     0      0      4096  4-Feb-2020 15:41 snap
+  262145 drwxr-xr-x     0      0      4096 15-Oct-2019 14:59 srv
+ 6684673 drwxr-xr-x     0      0      4096 24-Apr-2018 14:04 sys
+ 8388609 drwxrwxrwt     0      0   1093632  2-Apr-2020 21:09 tmp
+ 1703937 drwxr-xr-x     0      0      4096  3-Sep-2019 13:27 usr
+      12 lrwxrwxrwx     0      0        29 19-Mar-2020 13:06 vmlinuz
+      17 lrwxrwxrwx     0      0        32 19-Mar-2020 13:06 initrd.img.old
+      14 lrwxrwxrwx     0      0        32 19-Mar-2020 13:06 initrd.img
+ 9961473 drwx------     0      0      4096 28-Aug-2019 11:24 .Trash-0
+ 4849665 drwxr-xr-x     0      0      4096 21-Aug-2019 23:09 cdrom
+X     14 lrwxrwxrwx     0      0        32 19-Mar-2020 13:06 initrd.img.875197
+      13 lrwxrwxrwx     0      0        29 19-Mar-2020 13:06 vmlinuz.old
+X     17 lrwxrwxrwx     0      0        32 19-Mar-2020 13:06 initrd.img.old.494330
+
+dir_partition inode=4063233
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /home
+ 4063233 drwxr-xr-x     0      0      4096 28-Aug-2019 16:22 .
+       2 drwxr-xr-x     0      0      4096 19-Mar-2020 13:06 ..
+ 4066275 drwxr-xr-x  1000   1000      4096 28-Aug-2019 16:14 thinkpad-cc
+ 4066314 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:23 thinkpad
+Directory /
+       2 drwxr-xr-x     0      0      4096 19-Mar-2020 13:06 .
+       2 drwxr-xr-x     0      0      4096 19-Mar-2020 13:06 ..
+      11 drwx------     0      0     16384 21-Aug-2019 23:07 lost+found
+ 6553601 drwxr-xr-x     0      0     12288 27-Mar-2020 15:54 etc
+ 1048577 drwxr-xr-x     0      0      4096 28-Aug-2019 21:54 media
+ 9175041 drwxr-xr-x     0      0      4096  2-Mar-2020 11:55 var
+ 10223617 drwxr-xr-x     0      0      4096 19-Mar-2020 13:19 bin
+ 7864321 drwxr-xr-x     0      0      4096 19-Mar-2020 13:20 boot
+ 6291457 drwxr-xr-x     0      0      4096  6-Aug-2019 00:28 dev
+ 4063233 drwxr-xr-x     0      0      4096 28-Aug-2019 16:22 home
+ 1572865 drwxr-xr-x     0      0      4096 28-Aug-2019 16:23 lib
+ 1310721 drwxr-xr-x     0      0      4096  6-Aug-2019 00:28 lib64
+ 9699329 drwxr-xr-x     0      0      4096  6-Aug-2019 00:28 mnt
+ 2097153 drwxr-xr-x     0      0      4096 19-Mar-2020 15:05 opt
+ 8126465 drwxr-xr-x     0      0      4096 24-Apr-2018 14:04 proc
+ 4718593 drwx------     0      0      4096  4-Feb-2020 15:41 root
+ 4456449 drwxr-xr-x     0      0      4096 28-Aug-2019 16:21 run
+ 6422529 drwxr-xr-x     0      0     12288 19-Mar-2020 15:04 sbin
+  131073 drwxr-xr-x     0      0      4096  4-Feb-2020 15:41 snap
+  262145 drwxr-xr-x     0      0      4096 15-Oct-2019 14:59 srv
+ 6684673 drwxr-xr-x     0      0      4096 24-Apr-2018 14:04 sys
+ 8388609 drwxrwxrwt     0      0   1093632  2-Apr-2020 21:09 tmp
+ 1703937 drwxr-xr-x     0      0      4096  3-Sep-2019 13:27 usr
+      12 lrwxrwxrwx     0      0        29 19-Mar-2020 13:06 vmlinuz
+      17 lrwxrwxrwx     0      0        32 19-Mar-2020 13:06 initrd.img.old
+      14 lrwxrwxrwx     0      0        32 19-Mar-2020 13:06 initrd.img
+ 9961473 drwx------     0      0      4096 28-Aug-2019 11:24 .Trash-0
+ 4849665 drwxr-xr-x     0      0      4096 21-Aug-2019 23:09 cdrom
+X     14 lrwxrwxrwx     0      0        32 19-Mar-2020 13:06 initrd.img.875197
+      13 lrwxrwxrwx     0      0        29 19-Mar-2020 13:06 vmlinuz.old
+X     17 lrwxrwxrwx     0      0        32 19-Mar-2020 13:06 initrd.img.old.494330
+
+dir_partition inode=9175041
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /var
+ 9175041 drwxr-xr-x     0      0      4096  2-Mar-2020 11:55 .
+       2 drwxr-xr-x     0      0      4096 19-Mar-2020 13:06 ..
+ 9175042 drwxr-xr-x     0      0      4096 27-Mar-2020 15:54 cache
+ 9175049 drwxrwxrwx     0      0      4096  1-Apr-2020 11:38 backups
+ 9175050 drwxrwsrwt     0    117      4096  1-Apr-2020 10:07 crash
+ 9175051 drwxr-xr-x     0      0      4096 27-Mar-2020 15:54 lib
+ 9175052 drwxrwsrwx     0     50      4096 24-Apr-2018 14:04 local
+ 9175053 lrwxrwxrwx     0      0         9 28-Aug-2019 16:21 lock
+ 9175054 drwxrwxr-x     0    106      4096  2-Apr-2020 10:07 log
+ 9175055 drwxrwsrwx     0      8      4096  6-Aug-2019 00:28 mail
+ 9175056 drwxrwsrwx     0    117      4096  6-Aug-2019 00:35 metrics
+ 9175057 drwxrwxrwx     0      0      4096  6-Aug-2019 00:28 opt
+ 9175058 lrwxrwxrwx     0      0         4 28-Aug-2019 16:21 run
+ 9175059 drwxrwxrwx     0      0      4096  4-Feb-2020 15:41 snap
+ 9175060 drwxr-xr-x     0      0      4096  6-Aug-2019 00:32 spool
+ 9175061 drwxrwxrwx     0      0      4096  2-Apr-2020 21:09 tmp
+X 877770 drwxrwxrwx     0      0      4096  2-Mar-2020 11:55 www.dpkg-new
+  877770 drwxrwxrwx     0      0      4096  2-Mar-2020 11:55 www
+
+dir_partition inode=9175049
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /var/backups
+ 9175049 drwxrwxrwx     0      0      4096  1-Apr-2020 11:38 .
+ 9175041 drwxr-xr-x     0      0      4096  2-Mar-2020 11:55 ..
+ 9175673 -rw-------     0      0      2599 27-Mar-2020 15:54 passwd.bak
+ 9175597 -rwxrwxrwx     0      0        11 28-Aug-2019 16:21 dpkg.arch.0
+ 9177543 -rw-r--r--     0      0    555784 23-Mar-2020 13:56 dpkg.status.1.gz
+ 9179964 -rw-------     0      0      1021 27-Mar-2020 15:54 group.bak
+ 9178588 -rwxrwxrwx     0      0       252 28-Aug-2019 16:22 dpkg.diversions.1.gz
+ 9175270 -rw-r--r--     0      0     81920 19-Mar-2020 14:08 alternatives.tar.0
+ 9175532 -rwxrwxrwx     0      0       376  2-Mar-2020 12:03 dpkg.statoverride.0
+ 9179969 -rw-------     0     42      1360 27-Mar-2020 15:54 shadow.bak
+ 9179971 -rw-------     0     42       855 27-Mar-2020 15:54 gshadow.bak
+X9175555 -rw-r--r--     0      0   2020777 27-Mar-2020 15:54 dpkg.status
+ 9175555 -rw-r--r--     0      0   2020777 27-Mar-2020 15:54 dpkg.status.0
+ 9175274 -rw-r--r--     0      0    555485 19-Mar-2020 15:09 dpkg.status.2.gz
+ 9175271 -rwxrwxrwx     0      0        43 28-Aug-2019 16:21 dpkg.arch.2.gz
+ 9175527 -rw-r--r--     0      0       776 27-Mar-2020 15:54 dpkg.diversions.0
+ 9175254 -rwxrwxrwx     0      0        43 28-Aug-2019 16:21 dpkg.arch.6.gz
+ 9175529 -rw-r--r--     0      0    553318 19-Mar-2020 13:37 dpkg.status.3.gz
+ 9175524 -rwxrwxrwx     0      0        43 28-Aug-2019 16:21 dpkg.arch.3.gz
+ 9175578 -rw-r--r--     0      0    119099 27-Mar-2020 15:54 apt.extended_states.0
+ 9176654 -rw-r--r--     0      0    550760 12-Mar-2020 10:06 dpkg.status.4.gz
+ 9175277 -rwxrwxrwx     0      0       252 28-Aug-2019 16:22 dpkg.diversions.2.gz
+ 9176652 -rwxrwxrwx     0      0        43 28-Aug-2019 16:21 dpkg.arch.4.gz
+ 9175280 -rwxrwxrwx     0      0       225  2-Mar-2020 12:03 dpkg.statoverride.2.gz
+ 9186305 -rw-r--r--     0      0    550038  5-Mar-2020 11:41 dpkg.status.5.gz
+ 9175534 -rwxrwxrwx     0      0       252 28-Aug-2019 16:22 dpkg.diversions.3.gz
+ 9175536 -rwxrwxrwx     0      0       225  2-Mar-2020 12:03 dpkg.statoverride.3.gz
+ 9183994 -rwxrwxrwx     0      0        43 28-Aug-2019 16:21 dpkg.arch.5.gz
+ 9175990 -rw-r--r--     0      0    550139  2-Mar-2020 12:26 dpkg.status.6.gz
+ 9176730 -rwxrwxrwx     0      0       252 28-Aug-2019 16:22 dpkg.diversions.4.gz
+X9175578 -rw-r--r--     0      0    119099 27-Mar-2020 15:54 apt.extended_states
+ 9176759 -rwxrwxrwx     0      0       225  2-Mar-2020 12:03 dpkg.statoverride.4.gz
+ 9179805 -rw-r--r--     0      0     13121  2-Mar-2020 12:26 apt.extended_states.1.gz
+ 9177229 -rwxrwxrwx     0      0        43 28-Aug-2019 16:21 dpkg.arch.1.gz
+ 9176084 -rwxrwxrwx     0      0       252 28-Aug-2019 16:22 dpkg.diversions.6.gz
+ 9186591 -rwxrwxrwx     0      0       252 28-Aug-2019 16:22 dpkg.diversions.5.gz
+ 9179860 -rwxrwxrwx     0      0       225  2-Mar-2020 12:03 dpkg.statoverride.6.gz
+ 9189627 -rwxrwxrwx     0      0       225  2-Mar-2020 12:03 dpkg.statoverride.5.gz
+ 9175290 -rwxrwxrwx     0      0      3991 17-Jan-2020 10:39 alternatives.tar.3.gz
+ 9176758 -rwxrwxrwx     0      0      4002 28-Feb-2020 10:06 alternatives.tar.2.gz
+ 9184354 -rwxrwxrwx     0      0     12901 23-Jan-2020 11:58 apt.extended_states.2.gz
+ 9178812 -rwxrwxrwx     0      0       225  2-Mar-2020 12:03 dpkg.statoverride.1.gz
+ 9221748 -rwxrwxrwx     0      0     12793 29-Nov-2019 09:42 apt.extended_states.5.gz
+ 9185853 -rwxrwxrwx     0      0     12912  9-Jan-2020 12:22 apt.extended_states.3.gz
+ 9177004 -rwxrwxrwx     0      0      3984 10-Dec-2019 09:26 alternatives.tar.4.gz
+ 9195339 -rwxrwxrwx     0      0     12848 24-Dec-2019 11:41 apt.extended_states.4.gz
+ 9201973 -rwxrwxrwx     0      0     12773 14-Nov-2019 19:36 apt.extended_states.6.gz
+ 9179889 -rwxrwxrwx     0      0      3982  2-Dec-2019 16:08 alternatives.tar.5.gz
+ 9185868 -rwxrwxrwx     0      0      3926  5-Oct-2019 12:07 alternatives.tar.6.gz
+X9176769 -rw-r--r--     0      0      4105  2-Mar-2020 13:10 alternatives.tar.0.gz
+ 9176769 -rw-r--r--     0      0      4105  2-Mar-2020 13:10 alternatives.tar.1.gz
+Directory /var
+ 9175041 drwxr-xr-x     0      0      4096  2-Mar-2020 11:55 .
+       2 drwxr-xr-x     0      0      4096 19-Mar-2020 13:06 ..
+ 9175042 drwxr-xr-x     0      0      4096 27-Mar-2020 15:54 cache
+ 9175049 drwxrwxrwx     0      0      4096  1-Apr-2020 11:38 backups
+ 9175050 drwxrwsrwt     0    117      4096  1-Apr-2020 10:07 crash
+ 9175051 drwxr-xr-x     0      0      4096 27-Mar-2020 15:54 lib
+ 9175052 drwxrwsrwx     0     50      4096 24-Apr-2018 14:04 local
+ 9175053 lrwxrwxrwx     0      0         9 28-Aug-2019 16:21 lock
+ 9175054 drwxrwxr-x     0    106      4096  2-Apr-2020 10:07 log
+ 9175055 drwxrwsrwx     0      8      4096  6-Aug-2019 00:28 mail
+ 9175056 drwxrwsrwx     0    117      4096  6-Aug-2019 00:35 metrics
+ 9175057 drwxrwxrwx     0      0      4096  6-Aug-2019 00:28 opt
+ 9175058 lrwxrwxrwx     0      0         4 28-Aug-2019 16:21 run
+ 9175059 drwxrwxrwx     0      0      4096  4-Feb-2020 15:41 snap
+ 9175060 drwxr-xr-x     0      0      4096  6-Aug-2019 00:32 spool
+ 9175061 drwxrwxrwx     0      0      4096  2-Apr-2020 21:09 tmp
+X 877770 drwxrwxrwx     0      0      4096  2-Mar-2020 11:55 www.dpkg-new
+  877770 drwxrwxrwx     0      0      4096  2-Mar-2020 11:55 www
+Directory /
+       2 drwxr-xr-x     0      0      4096 19-Mar-2020 13:06 .
+       2 drwxr-xr-x     0      0      4096 19-Mar-2020 13:06 ..
+      11 drwx------     0      0     16384 21-Aug-2019 23:07 lost+found
+ 6553601 drwxr-xr-x     0      0     12288 27-Mar-2020 15:54 etc
+ 1048577 drwxr-xr-x     0      0      4096 28-Aug-2019 21:54 media
+ 9175041 drwxr-xr-x     0      0      4096  2-Mar-2020 11:55 var
+ 10223617 drwxr-xr-x     0      0      4096 19-Mar-2020 13:19 bin
+ 7864321 drwxr-xr-x     0      0      4096 19-Mar-2020 13:20 boot
+ 6291457 drwxr-xr-x     0      0      4096  6-Aug-2019 00:28 dev
+ 4063233 drwxr-xr-x     0      0      4096 28-Aug-2019 16:22 home
+ 1572865 drwxr-xr-x     0      0      4096 28-Aug-2019 16:23 lib
+ 1310721 drwxr-xr-x     0      0      4096  6-Aug-2019 00:28 lib64
+ 9699329 drwxr-xr-x     0      0      4096  6-Aug-2019 00:28 mnt
+ 2097153 drwxr-xr-x     0      0      4096 19-Mar-2020 15:05 opt
+ 8126465 drwxr-xr-x     0      0      4096 24-Apr-2018 14:04 proc
+ 4718593 drwx------     0      0      4096  4-Feb-2020 15:41 root
+ 4456449 drwxr-xr-x     0      0      4096 28-Aug-2019 16:21 run
+ 6422529 drwxr-xr-x     0      0     12288 19-Mar-2020 15:04 sbin
+  131073 drwxr-xr-x     0      0      4096  4-Feb-2020 15:41 snap
+  262145 drwxr-xr-x     0      0      4096 15-Oct-2019 14:59 srv
+ 6684673 drwxr-xr-x     0      0      4096 24-Apr-2018 14:04 sys
+ 8388609 drwxrwxrwt     0      0   1093632  2-Apr-2020 21:09 tmp
+ 1703937 drwxr-xr-x     0      0      4096  3-Sep-2019 13:27 usr
+      12 lrwxrwxrwx     0      0        29 19-Mar-2020 13:06 vmlinuz
+      17 lrwxrwxrwx     0      0        32 19-Mar-2020 13:06 initrd.img.old
+      14 lrwxrwxrwx     0      0        32 19-Mar-2020 13:06 initrd.img
+ 9961473 drwx------     0      0      4096 28-Aug-2019 11:24 .Trash-0
+ 4849665 drwxr-xr-x     0      0      4096 21-Aug-2019 23:09 cdrom
+X     14 lrwxrwxrwx     0      0        32 19-Mar-2020 13:06 initrd.img.875197
+      13 lrwxrwxrwx     0      0        29 19-Mar-2020 13:06 vmlinuz.old
+X     17 lrwxrwxrwx     0      0        32 19-Mar-2020 13:06 initrd.img.old.494330
+
+dir_partition inode=4063233
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /home
+ 4063233 drwxr-xr-x     0      0      4096 28-Aug-2019 16:22 .
+       2 drwxr-xr-x     0      0      4096 19-Mar-2020 13:06 ..
+ 4066275 drwxr-xr-x  1000   1000      4096 28-Aug-2019 16:14 thinkpad-cc
+ 4066314 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:23 thinkpad
+
+dir_partition inode=4066314
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /home/thinkpad
+ 4066314 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:23 .
+ 4063233 drwxr-xr-x     0      0      4096 28-Aug-2019 16:22 ..
+ 4066315 -rw-r--r--  1000   1000      8980 28-Aug-2019 16:22 examples.desktop
+ 4066317 -rw-r--r--  1000   1000       807 28-Aug-2019 16:22 .profile
+ 4066329 -rw-r--r--  1000   1000      3771 28-Aug-2019 16:22 .bashrc
+ 4066331 -rw-r--r--  1000   1000       220 28-Aug-2019 16:22 .bash_logout
+ 4066336 drwx------  1000   1000      4096 28-Aug-2019 16:26 .gnupg
+ 4066338 drwx------  1000   1000      4096 27-Mar-2020 14:34 .cache
+ 4066341 drwx------  1000   1000      4096 28-Aug-2019 21:54 .local
+ 4197514 drwx------  1000   1000      4096 23-Mar-2020 13:56 .config
+ 4197520 drwxr-xr-x  1000   1000      4096  1-Apr-2020 21:46 Desktop
+ 5374113 drwxr-xr-x  1000   1000      4096 28-Aug-2019 21:54 Public
+ 4066996 -rw-------  1000   1000     68724  2-Apr-2020 17:14 .ICEauthority
+ 4327887 drwxr-xr-x  1000   1000     12288  2-Apr-2020 16:48 Downloads
+ 5374112 drwxr-xr-x  1000   1000      4096 28-Aug-2019 21:54 Templates
+ 5374114 drwxr-xr-x  1000   1000      4096  1-Feb-2020 14:28 Documents
+ 5374115 drwxr-xr-x  1000   1000      4096 28-Aug-2019 21:54 Music
+ 5374116 drwxr-xr-x  1000   1000      4096 30-Mar-2020 21:13 Pictures
+ 5374117 drwxr-xr-x  1000   1000      4096  6-Mar-2020 21:34 Videos
+ 5374137 drwx------  1000   1000      4096  4-Dec-2019 13:12 .thunderbird
+ 6030613 drwx------  1000   1000      4096 28-Aug-2019 21:55 .mozilla
+ 6031930 drwx------  1000   1000      4096 27-Dec-2019 13:04 .ssh
+ 4067001 -rw-r--r--  1000   1000  59170956 24-Aug-2019 03:56 google-chrome-stable_current_amd64.deb
+ 4067005 -rw-r--r--  1000   1000         0 28-Aug-2019 16:27 .sudo_as_admin_successful
+ 4067006 drwx------  1000   1000      4096 28-Aug-2019 16:27 .pki
+ 4067015 drwxrwxr-x  1000   1000      4096 16-Jan-2020 14:43 .vscode
+ 4067059 drwxr--r-x  1000   1000      4096 11-Nov-2019 10:15 reactApp
+ 4067061 drwxr-xr-x  1000   1000     65536  2-Apr-2020 18:16 .npm
+ 4067017 drwxr-xr-x  1000   1000      4096 11-Mar-2020 11:21 codecrunch -mansi
+ 4067094 drwx------     0      0      4096 28-Aug-2019 17:28 .dbus
+ 4067097 drwx------     0      0      4096 28-Aug-2019 17:28 .gvfs
+ 4063813 -rw-------  1000   1000     29923  2-Apr-2020 17:23 .bash_history
+ 4067092 drwxr-xr-x  1000   1000      4096  4-Feb-2020 15:43 snap
+ 4200552 drwx------  1000   1000      4096 29-Aug-2019 13:27 .gnome
+ 4063731 -rw-r--r--  1000   1000        68 26-Mar-2020 20:35 .gitconfig
+ 4099622 drwxr-xr-x  1000   1000      4096 30-Dec-2019 18:26 test
+ 4071953 drwxr-xr-x  1000   1000      4096 19-Feb-2020 12:57 Udemy
+ 4075073 drwx------  1000   1000      4096 19-Sep-2019 16:28 .dosbox
+ 4075076 -rw-r--r--  1000   1000     10723 19-Sep-2019 16:36 dosbox.conf
+ 4077097 -rw-r--r--  1000   1000     12288 27-Sep-2019 09:19 .npmrc.swp
+ 4101210 -rw-rw-r--  1000   1000      4242  1-Jan-2020 17:44 orgformat
+ 4104030 -rw-rw-r--  1000   1000     35220  9-Jan-2020 12:12 sinkpicsvg
+ 4077670 drwxr-xr-x     0      0      4096 28-Feb-2020 16:50 node_modules
+ 4077096 -rw-r--r--  1000   1000      1999 27-Sep-2019 09:19 .npmrc
+ 4077614 drwxr-xr-x  1000   1000      4096 10-Oct-2019 15:57 ScreenShot javascript games
+ 4083521 -rw-r--r--  1000   1000     59878 28-Feb-2020 16:11 package-lock.json
+ 4078726 -rw-r--r--  1000   1000    185353 10-Oct-2019 15:58 ScreenShot javascript games.zip
+ 4078772 drwxr-xr-x  1000   1000      4096 27-Mar-2020 14:38 .node-gyp
+ 4079522 drwxr-xr-x     0      0      4096 15-Oct-2019 13:16 .expo
+ 4087461 drwxr-xr-x  1000   1000      4096 30-Oct-2019 15:46 .anydesk
+ 4095304 drwx------  1000   1000      4096  4-Dec-2019 17:22 .netlify
+ 4091260 -rw-rw-r--  1000   1000      1286 16-Dec-2019 13:06 Profileprojects
+ 4091329 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 Advanced Reactjs-Udemy
+ 4094553 -rw-------  1000   1000         0 24-Dec-2019 11:37 .mongorc.js
+ 4097719 -rw-------  1000   1000         0 24-Dec-2019 11:39 .dbshell
+ 4104242 -rw-r--r--  1000   1000  14403438 17-Dec-2019 13:46 teamviewer_amd64.deb
+ 4104243 -rw-r--r--  1000   1000       257 12-Mar-2020 10:05 .wget-hsts
+ 4106771 drwxr-xr-x  1000   1000      4096 18-Jan-2020 16:09 Ecommerce
+ 4113449 -rw-------  1000   1000       210 17-Feb-2020 17:44 .netrc
+ 4129238 drwxr-xr-x  1000   1000      4096  6-Mar-2020 21:32 .gphoto
+ 4129725 -rw-r--r--  1000   1000  79721256  4-Mar-2020 20:51 skypeforlinux-64.deb
+ 4074658 -rw-r--r--  1000   1000  61298592 22-Aug-2019 02:52 slack-desktop-4.0.2-amd64.deb
+ 5930908 drwx------  1000   1000      4096 19-Mar-2020 15:51 .docker
+ 5273279 drwxr-xr-x  1000   1000      4096 23-Mar-2020 13:59 bin
+ 4063234 -rw-------  1000   1000       118 19-Mar-2020 13:23 .mysql_history
+ 4456504 drwxr-xr-x  1000   1000      4096 20-Mar-2020 12:34 Jaydip-realestate
+ 5273182 drwxr-xr-x  1000   1000      4096 23-Mar-2020 13:59 timedoctor
+ 4063729 -rw-r--r--  1000   1000      5082 27-Mar-2020 14:27 .v8flags.7.9.317.25-node.29.63a9f0ea7bb98050796b649e85481845.json
+ 4063738 -rw-r--r--  1000   1000      5082 27-Mar-2020 14:32 .v8flags.7.9.317.25-node.29.3b80a171380b579fd1bccaa6eb08efd6.json
+ 4063804 -rw-r--r--  1000   1000      2596  2-Apr-2020 17:23 testdisk.log
+ 4856169 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:03 mansi
+ 4063773 -rw-r--r--  1000   1000 381040640  2-Apr-2020 17:07 Adanced React.zip
+ 4063726 -rw-r--r--  1000   1000 1873173878  2-Apr-2020 17:29 Advanced Reactjs-Udemy.zip
+X4063813 -rw-------  1000   1000     29923  2-Apr-2020 17:23 .bash_history-04118.tmp
+
+dir_partition inode=4091329
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /home/thinkpad/Advanced Reactjs-Udemy
+ 4091329 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 .
+ 4066314 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:23 ..
+ 4912999 drwxrwxrwx  1000   1000      4096 24-Dec-2019 10:58 server
+ 4758200 drwxrwxrwx  1000   1000      4096 23-Dec-2019 15:55 Jest-demo
+ 8178268 drwxrwxrwx  1000   1000      4096 18-Mar-2020 15:11 test
+ 5017457 drwxrwxrwx  1000   1000      4096 27-Feb-2020 16:52 online-shopping
+ 4760547 drwxrwxrwx  1000   1000      4096 27-Dec-2019 17:49 e-commerce
+ 4761597 drwxrwxrwx     0      0      4096  5-Feb-2020 11:09 styled-component
+ 4114438 drwxrwxrwx  1000   1000      4096 15-Feb-2020 13:16 redux-saga-example
+X4855832 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 covid-19
+ 8389038 drwxrwxrwx  1000   1000      4096 11-Feb-2020 12:30 higher-order-components-demo
+ 4918234 drwxrwxrwx     0      0      4096 22-Feb-2020 11:36 portal-demo
+ 8427749 drwxrwxrwx     0      0      4096 23-Mar-2020 17:26 context-api
+ 6165462 drwxr-xr-x  1000   1000      4096 27-Mar-2020 11:56 mansi-blog
+  874597 drwxrwxrwx  1000   1000      4096 26-Feb-2020 12:23 Callback-React
+ 9050143 drwxrwxrwx     0      0      4096 26-Feb-2020 11:11 callbackreact-demo
+ 6819399 drwxrwxrwx     0      0      4096 29-Feb-2020 13:07 book-graphql
+ 5330234 drwxrwxrwx  1000   1000      4096 28-Feb-2020 17:22 fullstack-tutorial
+ 4078925 -rwxrwxrwx  1000   1000 139828793 16-Feb-2018 19:56 xampp-linux-x64-7.2.2-0-installer.run
+ 6038025 drwxrwxrwx     0      0      4096  5-Mar-2020 10:04 redux-demo
+ 4072418 drwxrwxrwx  1000   1000      4096  4-Mar-2020 18:04 hello-world-getsby
+ 6228405 drwxrwxrwx     0      0      4096  5-Mar-2020 16:23 higher-order-comp-demo
+ 4083477 drwxrwxrwx     0      0      4096  6-Mar-2020 12:53 counter-thunk-app
+ 5967804 drwxrwxrwx     0      0      4096  6-Mar-2020 18:06 usecallback-usememo
+ 8389029 drwxrwxrwx     0      0      4096  8-Mar-2020 11:21 async-thunk-app
+ 4129277 drwxrwxrwx  1000   1000      4096 18-Mar-2020 13:04 robofriends-redux
+ 4469148 drwxrwxrwx     0      0      4096 24-Mar-2020 18:11 react-questions
+ 4129872 drwxr-xr-x  1000   1000      4096 18-Mar-2020 13:13 Robofreinds-testcases-demo
+ 6722756 drwxrwxrwx     0      0      4096 19-Mar-2020 15:38 reactdocker
+ 5273293 drwxrwxrwx     0      0      4096 23-Mar-2020 14:25 redux-form
+ 5272833 drwxrwxrwx     0      0      4096 28-Mar-2020 19:01 slack-clone-app
+ 5394311 drwxrwxrwx     0      0      4096 31-Mar-2020 17:47 country-map
+ 4855397 drwxrwxrwx  1000   1000      4096  2-Apr-2020 21:08 COVID19-React
+Directory /home/thinkpad
+ 4066314 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:23 .
+ 4063233 drwxr-xr-x     0      0      4096 28-Aug-2019 16:22 ..
+ 4066315 -rw-r--r--  1000   1000      8980 28-Aug-2019 16:22 examples.desktop
+ 4066317 -rw-r--r--  1000   1000       807 28-Aug-2019 16:22 .profile
+ 4066329 -rw-r--r--  1000   1000      3771 28-Aug-2019 16:22 .bashrc
+ 4066331 -rw-r--r--  1000   1000       220 28-Aug-2019 16:22 .bash_logout
+ 4066336 drwx------  1000   1000      4096 28-Aug-2019 16:26 .gnupg
+ 4066338 drwx------  1000   1000      4096 27-Mar-2020 14:34 .cache
+ 4066341 drwx------  1000   1000      4096 28-Aug-2019 21:54 .local
+ 4197514 drwx------  1000   1000      4096 23-Mar-2020 13:56 .config
+ 4197520 drwxr-xr-x  1000   1000      4096  1-Apr-2020 21:46 Desktop
+ 5374113 drwxr-xr-x  1000   1000      4096 28-Aug-2019 21:54 Public
+ 4066996 -rw-------  1000   1000     68724  2-Apr-2020 17:14 .ICEauthority
+ 4327887 drwxr-xr-x  1000   1000     12288  2-Apr-2020 16:48 Downloads
+ 5374112 drwxr-xr-x  1000   1000      4096 28-Aug-2019 21:54 Templates
+ 5374114 drwxr-xr-x  1000   1000      4096  1-Feb-2020 14:28 Documents
+ 5374115 drwxr-xr-x  1000   1000      4096 28-Aug-2019 21:54 Music
+ 5374116 drwxr-xr-x  1000   1000      4096 30-Mar-2020 21:13 Pictures
+ 5374117 drwxr-xr-x  1000   1000      4096  6-Mar-2020 21:34 Videos
+ 5374137 drwx------  1000   1000      4096  4-Dec-2019 13:12 .thunderbird
+ 6030613 drwx------  1000   1000      4096 28-Aug-2019 21:55 .mozilla
+ 6031930 drwx------  1000   1000      4096 27-Dec-2019 13:04 .ssh
+ 4067001 -rw-r--r--  1000   1000  59170956 24-Aug-2019 03:56 google-chrome-stable_current_amd64.deb
+ 4067005 -rw-r--r--  1000   1000         0 28-Aug-2019 16:27 .sudo_as_admin_successful
+ 4067006 drwx------  1000   1000      4096 28-Aug-2019 16:27 .pki
+ 4067015 drwxrwxr-x  1000   1000      4096 16-Jan-2020 14:43 .vscode
+ 4067059 drwxr--r-x  1000   1000      4096 11-Nov-2019 10:15 reactApp
+ 4067061 drwxr-xr-x  1000   1000     65536  2-Apr-2020 18:16 .npm
+ 4067017 drwxr-xr-x  1000   1000      4096 11-Mar-2020 11:21 codecrunch -mansi
+ 4067094 drwx------     0      0      4096 28-Aug-2019 17:28 .dbus
+ 4067097 drwx------     0      0      4096 28-Aug-2019 17:28 .gvfs
+ 4063813 -rw-------  1000   1000     29923  2-Apr-2020 17:23 .bash_history
+ 4067092 drwxr-xr-x  1000   1000      4096  4-Feb-2020 15:43 snap
+ 4200552 drwx------  1000   1000      4096 29-Aug-2019 13:27 .gnome
+ 4063731 -rw-r--r--  1000   1000        68 26-Mar-2020 20:35 .gitconfig
+ 4099622 drwxr-xr-x  1000   1000      4096 30-Dec-2019 18:26 test
+ 4071953 drwxr-xr-x  1000   1000      4096 19-Feb-2020 12:57 Udemy
+ 4075073 drwx------  1000   1000      4096 19-Sep-2019 16:28 .dosbox
+ 4075076 -rw-r--r--  1000   1000     10723 19-Sep-2019 16:36 dosbox.conf
+ 4077097 -rw-r--r--  1000   1000     12288 27-Sep-2019 09:19 .npmrc.swp
+ 4101210 -rw-rw-r--  1000   1000      4242  1-Jan-2020 17:44 orgformat
+ 4104030 -rw-rw-r--  1000   1000     35220  9-Jan-2020 12:12 sinkpicsvg
+ 4077670 drwxr-xr-x     0      0      4096 28-Feb-2020 16:50 node_modules
+ 4077096 -rw-r--r--  1000   1000      1999 27-Sep-2019 09:19 .npmrc
+ 4077614 drwxr-xr-x  1000   1000      4096 10-Oct-2019 15:57 ScreenShot javascript games
+ 4083521 -rw-r--r--  1000   1000     59878 28-Feb-2020 16:11 package-lock.json
+ 4078726 -rw-r--r--  1000   1000    185353 10-Oct-2019 15:58 ScreenShot javascript games.zip
+ 4078772 drwxr-xr-x  1000   1000      4096 27-Mar-2020 14:38 .node-gyp
+ 4079522 drwxr-xr-x     0      0      4096 15-Oct-2019 13:16 .expo
+ 4087461 drwxr-xr-x  1000   1000      4096 30-Oct-2019 15:46 .anydesk
+ 4095304 drwx------  1000   1000      4096  4-Dec-2019 17:22 .netlify
+ 4091260 -rw-rw-r--  1000   1000      1286 16-Dec-2019 13:06 Profileprojects
+ 4091329 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 Advanced Reactjs-Udemy
+ 4094553 -rw-------  1000   1000         0 24-Dec-2019 11:37 .mongorc.js
+ 4097719 -rw-------  1000   1000         0 24-Dec-2019 11:39 .dbshell
+ 4104242 -rw-r--r--  1000   1000  14403438 17-Dec-2019 13:46 teamviewer_amd64.deb
+ 4104243 -rw-r--r--  1000   1000       257 12-Mar-2020 10:05 .wget-hsts
+ 4106771 drwxr-xr-x  1000   1000      4096 18-Jan-2020 16:09 Ecommerce
+ 4113449 -rw-------  1000   1000       210 17-Feb-2020 17:44 .netrc
+ 4129238 drwxr-xr-x  1000   1000      4096  6-Mar-2020 21:32 .gphoto
+ 4129725 -rw-r--r--  1000   1000  79721256  4-Mar-2020 20:51 skypeforlinux-64.deb
+ 4074658 -rw-r--r--  1000   1000  61298592 22-Aug-2019 02:52 slack-desktop-4.0.2-amd64.deb
+ 5930908 drwx------  1000   1000      4096 19-Mar-2020 15:51 .docker
+ 5273279 drwxr-xr-x  1000   1000      4096 23-Mar-2020 13:59 bin
+ 4063234 -rw-------  1000   1000       118 19-Mar-2020 13:23 .mysql_history
+ 4456504 drwxr-xr-x  1000   1000      4096 20-Mar-2020 12:34 Jaydip-realestate
+ 5273182 drwxr-xr-x  1000   1000      4096 23-Mar-2020 13:59 timedoctor
+ 4063729 -rw-r--r--  1000   1000      5082 27-Mar-2020 14:27 .v8flags.7.9.317.25-node.29.63a9f0ea7bb98050796b649e85481845.json
+ 4063738 -rw-r--r--  1000   1000      5082 27-Mar-2020 14:32 .v8flags.7.9.317.25-node.29.3b80a171380b579fd1bccaa6eb08efd6.json
+ 4063804 -rw-r--r--  1000   1000      2596  2-Apr-2020 17:23 testdisk.log
+ 4856169 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:03 mansi
+ 4063773 -rw-r--r--  1000   1000 381040640  2-Apr-2020 17:07 Adanced React.zip
+ 4063726 -rw-r--r--  1000   1000 1873173878  2-Apr-2020 17:29 Advanced Reactjs-Udemy.zip
+X4063813 -rw-------  1000   1000     29923  2-Apr-2020 17:23 .bash_history-04118.tmp
+
+dir_partition inode=4091329
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /home/thinkpad/Advanced Reactjs-Udemy
+ 4091329 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 .
+ 4066314 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:23 ..
+ 4912999 drwxrwxrwx  1000   1000      4096 24-Dec-2019 10:58 server
+ 4758200 drwxrwxrwx  1000   1000      4096 23-Dec-2019 15:55 Jest-demo
+ 8178268 drwxrwxrwx  1000   1000      4096 18-Mar-2020 15:11 test
+ 5017457 drwxrwxrwx  1000   1000      4096 27-Feb-2020 16:52 online-shopping
+ 4760547 drwxrwxrwx  1000   1000      4096 27-Dec-2019 17:49 e-commerce
+ 4761597 drwxrwxrwx     0      0      4096  5-Feb-2020 11:09 styled-component
+ 4114438 drwxrwxrwx  1000   1000      4096 15-Feb-2020 13:16 redux-saga-example
+X4855832 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 covid-19
+ 8389038 drwxrwxrwx  1000   1000      4096 11-Feb-2020 12:30 higher-order-components-demo
+ 4918234 drwxrwxrwx     0      0      4096 22-Feb-2020 11:36 portal-demo
+ 8427749 drwxrwxrwx     0      0      4096 23-Mar-2020 17:26 context-api
+ 6165462 drwxr-xr-x  1000   1000      4096 27-Mar-2020 11:56 mansi-blog
+  874597 drwxrwxrwx  1000   1000      4096 26-Feb-2020 12:23 Callback-React
+ 9050143 drwxrwxrwx     0      0      4096 26-Feb-2020 11:11 callbackreact-demo
+ 6819399 drwxrwxrwx     0      0      4096 29-Feb-2020 13:07 book-graphql
+ 5330234 drwxrwxrwx  1000   1000      4096 28-Feb-2020 17:22 fullstack-tutorial
+ 4078925 -rwxrwxrwx  1000   1000 139828793 16-Feb-2018 19:56 xampp-linux-x64-7.2.2-0-installer.run
+ 6038025 drwxrwxrwx     0      0      4096  5-Mar-2020 10:04 redux-demo
+ 4072418 drwxrwxrwx  1000   1000      4096  4-Mar-2020 18:04 hello-world-getsby
+ 6228405 drwxrwxrwx     0      0      4096  5-Mar-2020 16:23 higher-order-comp-demo
+ 4083477 drwxrwxrwx     0      0      4096  6-Mar-2020 12:53 counter-thunk-app
+ 5967804 drwxrwxrwx     0      0      4096  6-Mar-2020 18:06 usecallback-usememo
+ 8389029 drwxrwxrwx     0      0      4096  8-Mar-2020 11:21 async-thunk-app
+ 4129277 drwxrwxrwx  1000   1000      4096 18-Mar-2020 13:04 robofriends-redux
+ 4469148 drwxrwxrwx     0      0      4096 24-Mar-2020 18:11 react-questions
+ 4129872 drwxr-xr-x  1000   1000      4096 18-Mar-2020 13:13 Robofreinds-testcases-demo
+ 6722756 drwxrwxrwx     0      0      4096 19-Mar-2020 15:38 reactdocker
+ 5273293 drwxrwxrwx     0      0      4096 23-Mar-2020 14:25 redux-form
+ 5272833 drwxrwxrwx     0      0      4096 28-Mar-2020 19:01 slack-clone-app
+ 5394311 drwxrwxrwx     0      0      4096 31-Mar-2020 17:47 country-map
+ 4855397 drwxrwxrwx  1000   1000      4096  2-Apr-2020 21:08 COVID19-React
+
+dir_partition inode=4855832
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /home/thinkpad/Advanced Reactjs-Udemy/covid-19
+ 4855832 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 .
+ 4855511 drwxrwxrwx  1000   1000      4096  2-Apr-2020 18:25 ..
+X4855845 -rwxrwxrwx  1000   1000       196  2-Apr-2020 18:17 tmp_obj_yjXoBg
+ 4855833 -rwxrwxrwx  1000   1000       333  2-Apr-2020 18:17 b5e053450a48a6bdb4d71aad648e7af821975c
+ 4855845 -rwxrwxrwx  1000   1000       196  2-Apr-2020 18:17 b1a275a0ea7df518f17bcea5375abf003abe55
+X5789548 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 AccordionContext
+X5789550 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 AccordionToggle
+X7881132 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Alert
+X7881135 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Badge
+X8010029 -rw-r--r--     0      0         0  2-Apr-2020 16:06 BootstrapModalManager
+X8010149 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Breadcrumb
+X8010177 -rw-r--r--     0      0         0  2-Apr-2020 16:06 BreadcrumbItem
+X8010192 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Button
+X8010250 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ButtonGroup
+X8011004 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ButtonToolbar
+X8011009 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Card
+X8011011 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 CardColumns
+X8011013 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 CardContext
+X8011015 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 CardDeck
+X8011017 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 CardGroup
+X8011019 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 CardImg
+X8011021 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Carousel
+X8265385 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CarouselCaption
+X8265544 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CarouselItem
+X8268770 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CloseButton
+X8268868 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Col
+X8268906 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Collapse
+X8268962 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Container
+X8269636 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 createChainedFunction
+X8269638 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 createWithBsPrefix
+X8269640 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 divWithClassName
+X8269643 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Dropdown
+X8269648 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 DropdownButton
+X8269652 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 DropdownItem
+X8269656 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 DropdownMenu
+X8269658 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 DropdownToggle
+X8269664 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ElementChildren
+X8269666 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Fade
+X8269670 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Feedback
+X8269673 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Figure
+X8659727 -rw-rw-r--  1000   1000         0  2-Apr-2020 16:06 FigureCaption
+X8659729 -rw-rw-r--  1000   1000         0  2-Apr-2020 16:06 FigureImage
+X8659733 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Form
+X8659736 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormCheck
+X8659740 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormCheckInput
+X8659744 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormCheckLabel
+X8659828 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormContext
+X8659831 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormControl
+X8659833 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormFile
+X8659836 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormFileInput
+X8659841 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormFileLabel
+X8659845 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormGroup
+X8659847 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormLabel
+X8659851 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormText
+X8659856 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Image
+X8659860 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 InputGroup
+X8659864 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Jumbotron
+X8659868 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ListGroup
+X8659872 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ListGroupItem
+X8659879 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Media
+X8659886 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Modal
+X8659889 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalBody
+X8659891 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalContext
+X8659961 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalDialog
+X8660041 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalFooter
+X8660091 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalHeader
+X8660105 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalTitle
+X8660110 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Nav
+X8662346 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Navbar
+X8662348 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavbarBrand
+X8662350 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavbarCollapse
+X8662352 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavbarContext
+X8662354 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavbarToggle
+X8662356 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavContext
+X8662358 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavDropdown
+X8662360 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavItem
+X8662362 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavLink
+X8810994 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Overlay
+X8810996 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 OverlayTrigger
+X4866833 -rw-r--r--     0      0         0  2-Apr-2020 16:06 package.json
+X6191948 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 PageItem
+X6712730 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Pagination
+X6821783 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Popover
+X7221741 -rw-r--r--     0      0         0  2-Apr-2020 16:06 PopoverContent
+X7355449 -rw-r--r--     0      0         0  2-Apr-2020 16:06 PopoverTitle
+X7491276 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ProgressBar
+X7623980 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ResponsiveEmbed
+X7748392 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Row
+X7881150 -rw-r--r--     0      0         0  2-Apr-2020 16:06 SafeAnchor
+X8810998 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 SelectableContext
+X8811001 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Spinner
+X8811005 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 SplitButton
+X8811008 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Switch
+X8922169 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Tab
+X8939354 -rw-r--r--     0      0         0  2-Apr-2020 16:06 TabContainer
+X8939496 -rw-r--r--     0      0         0  2-Apr-2020 16:06 TabContent
+X8940605 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 TabContext
+X8940623 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Table
+X8940667 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 TabPane
+X8940808 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Tabs
+X8940813 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ThemeProvider
+X8940818 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Toast
+X8940820 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ToastBody
+X8940823 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ToastContext
+X8940826 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ToastHeader
+X8940829 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ToggleButton
+X8940832 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ToggleButtonGroup
+X8940836 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Tooltip
+X8940840 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 triggerBrowserReflow
+X8940842 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 useWrappedRefWithWarning
+X4866904 -rw-r--r--     0      0         0  2-Apr-2020 16:06 README.md
+X4866908 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Accordion.d.ts
+X4866912 -rw-r--r--     0      0         0  2-Apr-2020 16:06 AccordionCollapse.d.ts
+X4866916 -rw-r--r--     0      0         0  2-Apr-2020 16:06 AccordionToggle.d.ts
+X4866922 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Alert.d.ts
+X4866926 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Badge.d.ts
+X4866930 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Breadcrumb.d.ts
+X4866934 -rw-r--r--     0      0         0  2-Apr-2020 16:06 BreadcrumbItem.d.ts
+X4866939 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Button.d.ts
+X4866943 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ButtonGroup.d.ts
+X4866947 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ButtonToolbar.d.ts
+X4866951 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Card.d.ts
+X4866956 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CardColumns.d.ts
+X4866960 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CardDeck.d.ts
+X4866964 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CardGroup.d.ts
+X4866968 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CardImg.d.ts
+X4866972 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Carousel.d.ts
+X4866976 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CarouselCaption.d.ts
+X4866980 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CarouselItem.d.ts
+X4866984 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CloseButton.d.ts
+X4866988 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Col.d.ts
+X4866992 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Collapse.d.ts
+X4866997 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Container.d.ts
+X4867001 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Dropdown.d.ts
+X4867005 -rw-r--r--     0      0         0  2-Apr-2020 16:06 DropdownButton.d.ts
+X4867009 -rw-r--r--     0      0         0  2-Apr-2020 16:06 DropdownItem.d.ts
+X4867013 -rw-r--r--     0      0         0  2-Apr-2020 16:06 DropdownMenu.d.ts
+X4867017 -rw-r--r--     0      0         0  2-Apr-2020 16:06 DropdownToggle.d.ts
+X4867023 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Fade.d.ts
+X4867027 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Feedback.d.ts
+X4867031 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Figure.d.ts
+X4867035 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FigureCaption.d.ts
+X4867039 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FigureImage.d.ts
+X4867041 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Form.d.ts
+X4867045 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormCheck.d.ts
+X4867049 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormCheckInput.d.ts
+X4867051 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormCheckLabel.d.ts
+X4867056 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormControl.d.ts
+X4867060 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormFile.d.ts
+X4867064 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormFileInput.d.ts
+X4867068 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormFileLabel.d.ts
+X4867072 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormGroup.d.ts
+X4867076 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormLabel.d.ts
+X4867080 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormText.d.ts
+X4867084 -rw-r--r--     0      0         0  2-Apr-2020 16:06 helpers.d.ts
+X4867088 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Image.d.ts
+X4867092 -rw-r--r--     0      0         0  2-Apr-2020 16:06 index.d.ts
+X4867096 -rw-r--r--     0      0         0  2-Apr-2020 16:06 InputGroup.d.ts
+X4867100 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Jumbotron.d.ts
+X4867104 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ListGroup.d.ts
+X4867108 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ListGroupItem.d.ts
+X4867111 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Media.d.ts
+X4867115 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Modal.d.ts
+X4867119 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ModalBody.d.ts
+X4867123 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ModalDialog.d.ts
+X4867127 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ModalFooter.d.ts
+X4867131 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ModalHeader.d.ts
+X4867135 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ModalTitle.d.ts
+X4867139 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Nav.d.ts
+X4867143 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Navbar.d.ts
+X4867147 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavbarBrand.d.ts
+X4867151 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavbarCollapse.d.ts
+X4867155 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavbarToggle.d.ts
+X4867160 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavDropdown.d.ts
+X4867163 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavItem.d.ts
+X4867167 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavLink.d.ts
+X4867172 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Overlay.d.ts
+X4867176 -rw-r--r--     0      0         0  2-Apr-2020 16:06 OverlayTrigger.d.ts
+X4867179 -rw-r--r--     0      0         0  2-Apr-2020 16:06 PageItem.d.ts
+X4867181 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Pagination.d.ts
+X4867183 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Popover.d.ts
+X4867185 -rw-r--r--     0      0         0  2-Apr-2020 16:06 PopoverContent.d.ts
+X4867187 -rw-r--r--     0      0         0  2-Apr-2020 16:06 PopoverTitle.d.ts
+X4867189 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ProgressBar.d.ts
+X4867191 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ResponsiveEmbed.d.ts
+X4867194 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Row.d.ts
+Directory /home/thinkpad/Advanced Reactjs-Udemy
+ 4091329 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 .
+ 4066314 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:23 ..
+ 4912999 drwxrwxrwx  1000   1000      4096 24-Dec-2019 10:58 server
+ 4758200 drwxrwxrwx  1000   1000      4096 23-Dec-2019 15:55 Jest-demo
+ 8178268 drwxrwxrwx  1000   1000      4096 18-Mar-2020 15:11 test
+ 5017457 drwxrwxrwx  1000   1000      4096 27-Feb-2020 16:52 online-shopping
+ 4760547 drwxrwxrwx  1000   1000      4096 27-Dec-2019 17:49 e-commerce
+ 4761597 drwxrwxrwx     0      0      4096  5-Feb-2020 11:09 styled-component
+ 4114438 drwxrwxrwx  1000   1000      4096 15-Feb-2020 13:16 redux-saga-example
+X4855832 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 covid-19
+ 8389038 drwxrwxrwx  1000   1000      4096 11-Feb-2020 12:30 higher-order-components-demo
+ 4918234 drwxrwxrwx     0      0      4096 22-Feb-2020 11:36 portal-demo
+ 8427749 drwxrwxrwx     0      0      4096 23-Mar-2020 17:26 context-api
+ 6165462 drwxr-xr-x  1000   1000      4096 27-Mar-2020 11:56 mansi-blog
+  874597 drwxrwxrwx  1000   1000      4096 26-Feb-2020 12:23 Callback-React
+ 9050143 drwxrwxrwx     0      0      4096 26-Feb-2020 11:11 callbackreact-demo
+ 6819399 drwxrwxrwx     0      0      4096 29-Feb-2020 13:07 book-graphql
+ 5330234 drwxrwxrwx  1000   1000      4096 28-Feb-2020 17:22 fullstack-tutorial
+ 4078925 -rwxrwxrwx  1000   1000 139828793 16-Feb-2018 19:56 xampp-linux-x64-7.2.2-0-installer.run
+ 6038025 drwxrwxrwx     0      0      4096  5-Mar-2020 10:04 redux-demo
+ 4072418 drwxrwxrwx  1000   1000      4096  4-Mar-2020 18:04 hello-world-getsby
+ 6228405 drwxrwxrwx     0      0      4096  5-Mar-2020 16:23 higher-order-comp-demo
+ 4083477 drwxrwxrwx     0      0      4096  6-Mar-2020 12:53 counter-thunk-app
+ 5967804 drwxrwxrwx     0      0      4096  6-Mar-2020 18:06 usecallback-usememo
+ 8389029 drwxrwxrwx     0      0      4096  8-Mar-2020 11:21 async-thunk-app
+ 4129277 drwxrwxrwx  1000   1000      4096 18-Mar-2020 13:04 robofriends-redux
+ 4469148 drwxrwxrwx     0      0      4096 24-Mar-2020 18:11 react-questions
+ 4129872 drwxr-xr-x  1000   1000      4096 18-Mar-2020 13:13 Robofreinds-testcases-demo
+ 6722756 drwxrwxrwx     0      0      4096 19-Mar-2020 15:38 reactdocker
+ 5273293 drwxrwxrwx     0      0      4096 23-Mar-2020 14:25 redux-form
+ 5272833 drwxrwxrwx     0      0      4096 28-Mar-2020 19:01 slack-clone-app
+ 5394311 drwxrwxrwx     0      0      4096 31-Mar-2020 17:47 country-map
+ 4855397 drwxrwxrwx  1000   1000      4096  2-Apr-2020 21:08 COVID19-React
+Directory /home/thinkpad
+ 4066314 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:23 .
+ 4063233 drwxr-xr-x     0      0      4096 28-Aug-2019 16:22 ..
+ 4066315 -rw-r--r--  1000   1000      8980 28-Aug-2019 16:22 examples.desktop
+ 4066317 -rw-r--r--  1000   1000       807 28-Aug-2019 16:22 .profile
+ 4066329 -rw-r--r--  1000   1000      3771 28-Aug-2019 16:22 .bashrc
+ 4066331 -rw-r--r--  1000   1000       220 28-Aug-2019 16:22 .bash_logout
+ 4066336 drwx------  1000   1000      4096 28-Aug-2019 16:26 .gnupg
+ 4066338 drwx------  1000   1000      4096 27-Mar-2020 14:34 .cache
+ 4066341 drwx------  1000   1000      4096 28-Aug-2019 21:54 .local
+ 4197514 drwx------  1000   1000      4096 23-Mar-2020 13:56 .config
+ 4197520 drwxr-xr-x  1000   1000      4096  1-Apr-2020 21:46 Desktop
+ 5374113 drwxr-xr-x  1000   1000      4096 28-Aug-2019 21:54 Public
+ 4066996 -rw-------  1000   1000     68724  2-Apr-2020 17:14 .ICEauthority
+ 4327887 drwxr-xr-x  1000   1000     12288  2-Apr-2020 16:48 Downloads
+ 5374112 drwxr-xr-x  1000   1000      4096 28-Aug-2019 21:54 Templates
+ 5374114 drwxr-xr-x  1000   1000      4096  1-Feb-2020 14:28 Documents
+ 5374115 drwxr-xr-x  1000   1000      4096 28-Aug-2019 21:54 Music
+ 5374116 drwxr-xr-x  1000   1000      4096 30-Mar-2020 21:13 Pictures
+ 5374117 drwxr-xr-x  1000   1000      4096  6-Mar-2020 21:34 Videos
+ 5374137 drwx------  1000   1000      4096  4-Dec-2019 13:12 .thunderbird
+ 6030613 drwx------  1000   1000      4096 28-Aug-2019 21:55 .mozilla
+ 6031930 drwx------  1000   1000      4096 27-Dec-2019 13:04 .ssh
+ 4067001 -rw-r--r--  1000   1000  59170956 24-Aug-2019 03:56 google-chrome-stable_current_amd64.deb
+ 4067005 -rw-r--r--  1000   1000         0 28-Aug-2019 16:27 .sudo_as_admin_successful
+ 4067006 drwx------  1000   1000      4096 28-Aug-2019 16:27 .pki
+ 4067015 drwxrwxr-x  1000   1000      4096 16-Jan-2020 14:43 .vscode
+ 4067059 drwxr--r-x  1000   1000      4096 11-Nov-2019 10:15 reactApp
+ 4067061 drwxr-xr-x  1000   1000     65536  2-Apr-2020 18:16 .npm
+ 4067017 drwxr-xr-x  1000   1000      4096 11-Mar-2020 11:21 codecrunch -mansi
+ 4067094 drwx------     0      0      4096 28-Aug-2019 17:28 .dbus
+ 4067097 drwx------     0      0      4096 28-Aug-2019 17:28 .gvfs
+ 4063813 -rw-------  1000   1000     29923  2-Apr-2020 17:23 .bash_history
+ 4067092 drwxr-xr-x  1000   1000      4096  4-Feb-2020 15:43 snap
+ 4200552 drwx------  1000   1000      4096 29-Aug-2019 13:27 .gnome
+ 4063731 -rw-r--r--  1000   1000        68 26-Mar-2020 20:35 .gitconfig
+ 4099622 drwxr-xr-x  1000   1000      4096 30-Dec-2019 18:26 test
+ 4071953 drwxr-xr-x  1000   1000      4096 19-Feb-2020 12:57 Udemy
+ 4075073 drwx------  1000   1000      4096 19-Sep-2019 16:28 .dosbox
+ 4075076 -rw-r--r--  1000   1000     10723 19-Sep-2019 16:36 dosbox.conf
+ 4077097 -rw-r--r--  1000   1000     12288 27-Sep-2019 09:19 .npmrc.swp
+ 4101210 -rw-rw-r--  1000   1000      4242  1-Jan-2020 17:44 orgformat
+ 4104030 -rw-rw-r--  1000   1000     35220  9-Jan-2020 12:12 sinkpicsvg
+ 4077670 drwxr-xr-x     0      0      4096 28-Feb-2020 16:50 node_modules
+ 4077096 -rw-r--r--  1000   1000      1999 27-Sep-2019 09:19 .npmrc
+ 4077614 drwxr-xr-x  1000   1000      4096 10-Oct-2019 15:57 ScreenShot javascript games
+ 4083521 -rw-r--r--  1000   1000     59878 28-Feb-2020 16:11 package-lock.json
+ 4078726 -rw-r--r--  1000   1000    185353 10-Oct-2019 15:58 ScreenShot javascript games.zip
+ 4078772 drwxr-xr-x  1000   1000      4096 27-Mar-2020 14:38 .node-gyp
+ 4079522 drwxr-xr-x     0      0      4096 15-Oct-2019 13:16 .expo
+ 4087461 drwxr-xr-x  1000   1000      4096 30-Oct-2019 15:46 .anydesk
+ 4095304 drwx------  1000   1000      4096  4-Dec-2019 17:22 .netlify
+ 4091260 -rw-rw-r--  1000   1000      1286 16-Dec-2019 13:06 Profileprojects
+ 4091329 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 Advanced Reactjs-Udemy
+ 4094553 -rw-------  1000   1000         0 24-Dec-2019 11:37 .mongorc.js
+ 4097719 -rw-------  1000   1000         0 24-Dec-2019 11:39 .dbshell
+ 4104242 -rw-r--r--  1000   1000  14403438 17-Dec-2019 13:46 teamviewer_amd64.deb
+ 4104243 -rw-r--r--  1000   1000       257 12-Mar-2020 10:05 .wget-hsts
+ 4106771 drwxr-xr-x  1000   1000      4096 18-Jan-2020 16:09 Ecommerce
+ 4113449 -rw-------  1000   1000       210 17-Feb-2020 17:44 .netrc
+ 4129238 drwxr-xr-x  1000   1000      4096  6-Mar-2020 21:32 .gphoto
+ 4129725 -rw-r--r--  1000   1000  79721256  4-Mar-2020 20:51 skypeforlinux-64.deb
+ 4074658 -rw-r--r--  1000   1000  61298592 22-Aug-2019 02:52 slack-desktop-4.0.2-amd64.deb
+ 5930908 drwx------  1000   1000      4096 19-Mar-2020 15:51 .docker
+ 5273279 drwxr-xr-x  1000   1000      4096 23-Mar-2020 13:59 bin
+ 4063234 -rw-------  1000   1000       118 19-Mar-2020 13:23 .mysql_history
+ 4456504 drwxr-xr-x  1000   1000      4096 20-Mar-2020 12:34 Jaydip-realestate
+ 5273182 drwxr-xr-x  1000   1000      4096 23-Mar-2020 13:59 timedoctor
+ 4063729 -rw-r--r--  1000   1000      5082 27-Mar-2020 14:27 .v8flags.7.9.317.25-node.29.63a9f0ea7bb98050796b649e85481845.json
+ 4063738 -rw-r--r--  1000   1000      5082 27-Mar-2020 14:32 .v8flags.7.9.317.25-node.29.3b80a171380b579fd1bccaa6eb08efd6.json
+ 4063804 -rw-r--r--  1000   1000      2596  2-Apr-2020 17:23 testdisk.log
+ 4856169 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:03 mansi
+ 4063773 -rw-r--r--  1000   1000 381040640  2-Apr-2020 17:07 Adanced React.zip
+ 4063726 -rw-r--r--  1000   1000 1873173878  2-Apr-2020 17:29 Advanced Reactjs-Udemy.zip
+X4063813 -rw-------  1000   1000     29923  2-Apr-2020 17:23 .bash_history-04118.tmp
+
+dir_partition inode=4091329
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /home/thinkpad/Advanced Reactjs-Udemy
+ 4091329 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 .
+ 4066314 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:23 ..
+ 4912999 drwxrwxrwx  1000   1000      4096 24-Dec-2019 10:58 server
+ 4758200 drwxrwxrwx  1000   1000      4096 23-Dec-2019 15:55 Jest-demo
+ 8178268 drwxrwxrwx  1000   1000      4096 18-Mar-2020 15:11 test
+ 5017457 drwxrwxrwx  1000   1000      4096 27-Feb-2020 16:52 online-shopping
+ 4760547 drwxrwxrwx  1000   1000      4096 27-Dec-2019 17:49 e-commerce
+ 4761597 drwxrwxrwx     0      0      4096  5-Feb-2020 11:09 styled-component
+ 4114438 drwxrwxrwx  1000   1000      4096 15-Feb-2020 13:16 redux-saga-example
+X4855832 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 covid-19
+ 8389038 drwxrwxrwx  1000   1000      4096 11-Feb-2020 12:30 higher-order-components-demo
+ 4918234 drwxrwxrwx     0      0      4096 22-Feb-2020 11:36 portal-demo
+ 8427749 drwxrwxrwx     0      0      4096 23-Mar-2020 17:26 context-api
+ 6165462 drwxr-xr-x  1000   1000      4096 27-Mar-2020 11:56 mansi-blog
+  874597 drwxrwxrwx  1000   1000      4096 26-Feb-2020 12:23 Callback-React
+ 9050143 drwxrwxrwx     0      0      4096 26-Feb-2020 11:11 callbackreact-demo
+ 6819399 drwxrwxrwx     0      0      4096 29-Feb-2020 13:07 book-graphql
+ 5330234 drwxrwxrwx  1000   1000      4096 28-Feb-2020 17:22 fullstack-tutorial
+ 4078925 -rwxrwxrwx  1000   1000 139828793 16-Feb-2018 19:56 xampp-linux-x64-7.2.2-0-installer.run
+ 6038025 drwxrwxrwx     0      0      4096  5-Mar-2020 10:04 redux-demo
+ 4072418 drwxrwxrwx  1000   1000      4096  4-Mar-2020 18:04 hello-world-getsby
+ 6228405 drwxrwxrwx     0      0      4096  5-Mar-2020 16:23 higher-order-comp-demo
+ 4083477 drwxrwxrwx     0      0      4096  6-Mar-2020 12:53 counter-thunk-app
+ 5967804 drwxrwxrwx     0      0      4096  6-Mar-2020 18:06 usecallback-usememo
+ 8389029 drwxrwxrwx     0      0      4096  8-Mar-2020 11:21 async-thunk-app
+ 4129277 drwxrwxrwx  1000   1000      4096 18-Mar-2020 13:04 robofriends-redux
+ 4469148 drwxrwxrwx     0      0      4096 24-Mar-2020 18:11 react-questions
+ 4129872 drwxr-xr-x  1000   1000      4096 18-Mar-2020 13:13 Robofreinds-testcases-demo
+ 6722756 drwxrwxrwx     0      0      4096 19-Mar-2020 15:38 reactdocker
+ 5273293 drwxrwxrwx     0      0      4096 23-Mar-2020 14:25 redux-form
+ 5272833 drwxrwxrwx     0      0      4096 28-Mar-2020 19:01 slack-clone-app
+ 5394311 drwxrwxrwx     0      0      4096 31-Mar-2020 17:47 country-map
+ 4855397 drwxrwxrwx  1000   1000      4096  2-Apr-2020 21:08 COVID19-React
+Directory /home/thinkpad
+ 4066314 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:23 .
+ 4063233 drwxr-xr-x     0      0      4096 28-Aug-2019 16:22 ..
+ 4066315 -rw-r--r--  1000   1000      8980 28-Aug-2019 16:22 examples.desktop
+ 4066317 -rw-r--r--  1000   1000       807 28-Aug-2019 16:22 .profile
+ 4066329 -rw-r--r--  1000   1000      3771 28-Aug-2019 16:22 .bashrc
+ 4066331 -rw-r--r--  1000   1000       220 28-Aug-2019 16:22 .bash_logout
+ 4066336 drwx------  1000   1000      4096 28-Aug-2019 16:26 .gnupg
+ 4066338 drwx------  1000   1000      4096 27-Mar-2020 14:34 .cache
+ 4066341 drwx------  1000   1000      4096 28-Aug-2019 21:54 .local
+ 4197514 drwx------  1000   1000      4096 23-Mar-2020 13:56 .config
+ 4197520 drwxr-xr-x  1000   1000      4096  1-Apr-2020 21:46 Desktop
+ 5374113 drwxr-xr-x  1000   1000      4096 28-Aug-2019 21:54 Public
+ 4066996 -rw-------  1000   1000     68724  2-Apr-2020 17:14 .ICEauthority
+ 4327887 drwxr-xr-x  1000   1000     12288  2-Apr-2020 16:48 Downloads
+ 5374112 drwxr-xr-x  1000   1000      4096 28-Aug-2019 21:54 Templates
+ 5374114 drwxr-xr-x  1000   1000      4096  1-Feb-2020 14:28 Documents
+ 5374115 drwxr-xr-x  1000   1000      4096 28-Aug-2019 21:54 Music
+ 5374116 drwxr-xr-x  1000   1000      4096 30-Mar-2020 21:13 Pictures
+ 5374117 drwxr-xr-x  1000   1000      4096  6-Mar-2020 21:34 Videos
+ 5374137 drwx------  1000   1000      4096  4-Dec-2019 13:12 .thunderbird
+ 6030613 drwx------  1000   1000      4096 28-Aug-2019 21:55 .mozilla
+ 6031930 drwx------  1000   1000      4096 27-Dec-2019 13:04 .ssh
+ 4067001 -rw-r--r--  1000   1000  59170956 24-Aug-2019 03:56 google-chrome-stable_current_amd64.deb
+ 4067005 -rw-r--r--  1000   1000         0 28-Aug-2019 16:27 .sudo_as_admin_successful
+ 4067006 drwx------  1000   1000      4096 28-Aug-2019 16:27 .pki
+ 4067015 drwxrwxr-x  1000   1000      4096 16-Jan-2020 14:43 .vscode
+ 4067059 drwxr--r-x  1000   1000      4096 11-Nov-2019 10:15 reactApp
+ 4067061 drwxr-xr-x  1000   1000     65536  2-Apr-2020 18:16 .npm
+ 4067017 drwxr-xr-x  1000   1000      4096 11-Mar-2020 11:21 codecrunch -mansi
+ 4067094 drwx------     0      0      4096 28-Aug-2019 17:28 .dbus
+ 4067097 drwx------     0      0      4096 28-Aug-2019 17:28 .gvfs
+ 4063813 -rw-------  1000   1000     29923  2-Apr-2020 17:23 .bash_history
+ 4067092 drwxr-xr-x  1000   1000      4096  4-Feb-2020 15:43 snap
+ 4200552 drwx------  1000   1000      4096 29-Aug-2019 13:27 .gnome
+ 4063731 -rw-r--r--  1000   1000        68 26-Mar-2020 20:35 .gitconfig
+ 4099622 drwxr-xr-x  1000   1000      4096 30-Dec-2019 18:26 test
+ 4071953 drwxr-xr-x  1000   1000      4096 19-Feb-2020 12:57 Udemy
+ 4075073 drwx------  1000   1000      4096 19-Sep-2019 16:28 .dosbox
+ 4075076 -rw-r--r--  1000   1000     10723 19-Sep-2019 16:36 dosbox.conf
+ 4077097 -rw-r--r--  1000   1000     12288 27-Sep-2019 09:19 .npmrc.swp
+ 4101210 -rw-rw-r--  1000   1000      4242  1-Jan-2020 17:44 orgformat
+ 4104030 -rw-rw-r--  1000   1000     35220  9-Jan-2020 12:12 sinkpicsvg
+ 4077670 drwxr-xr-x     0      0      4096 28-Feb-2020 16:50 node_modules
+ 4077096 -rw-r--r--  1000   1000      1999 27-Sep-2019 09:19 .npmrc
+ 4077614 drwxr-xr-x  1000   1000      4096 10-Oct-2019 15:57 ScreenShot javascript games
+ 4083521 -rw-r--r--  1000   1000     59878 28-Feb-2020 16:11 package-lock.json
+ 4078726 -rw-r--r--  1000   1000    185353 10-Oct-2019 15:58 ScreenShot javascript games.zip
+ 4078772 drwxr-xr-x  1000   1000      4096 27-Mar-2020 14:38 .node-gyp
+ 4079522 drwxr-xr-x     0      0      4096 15-Oct-2019 13:16 .expo
+ 4087461 drwxr-xr-x  1000   1000      4096 30-Oct-2019 15:46 .anydesk
+ 4095304 drwx------  1000   1000      4096  4-Dec-2019 17:22 .netlify
+ 4091260 -rw-rw-r--  1000   1000      1286 16-Dec-2019 13:06 Profileprojects
+ 4091329 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 Advanced Reactjs-Udemy
+ 4094553 -rw-------  1000   1000         0 24-Dec-2019 11:37 .mongorc.js
+ 4097719 -rw-------  1000   1000         0 24-Dec-2019 11:39 .dbshell
+ 4104242 -rw-r--r--  1000   1000  14403438 17-Dec-2019 13:46 teamviewer_amd64.deb
+ 4104243 -rw-r--r--  1000   1000       257 12-Mar-2020 10:05 .wget-hsts
+ 4106771 drwxr-xr-x  1000   1000      4096 18-Jan-2020 16:09 Ecommerce
+ 4113449 -rw-------  1000   1000       210 17-Feb-2020 17:44 .netrc
+ 4129238 drwxr-xr-x  1000   1000      4096  6-Mar-2020 21:32 .gphoto
+ 4129725 -rw-r--r--  1000   1000  79721256  4-Mar-2020 20:51 skypeforlinux-64.deb
+ 4074658 -rw-r--r--  1000   1000  61298592 22-Aug-2019 02:52 slack-desktop-4.0.2-amd64.deb
+ 5930908 drwx------  1000   1000      4096 19-Mar-2020 15:51 .docker
+ 5273279 drwxr-xr-x  1000   1000      4096 23-Mar-2020 13:59 bin
+ 4063234 -rw-------  1000   1000       118 19-Mar-2020 13:23 .mysql_history
+ 4456504 drwxr-xr-x  1000   1000      4096 20-Mar-2020 12:34 Jaydip-realestate
+ 5273182 drwxr-xr-x  1000   1000      4096 23-Mar-2020 13:59 timedoctor
+ 4063729 -rw-r--r--  1000   1000      5082 27-Mar-2020 14:27 .v8flags.7.9.317.25-node.29.63a9f0ea7bb98050796b649e85481845.json
+ 4063738 -rw-r--r--  1000   1000      5082 27-Mar-2020 14:32 .v8flags.7.9.317.25-node.29.3b80a171380b579fd1bccaa6eb08efd6.json
+ 4063804 -rw-r--r--  1000   1000      2596  2-Apr-2020 17:23 testdisk.log
+ 4856169 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:03 mansi
+ 4063773 -rw-r--r--  1000   1000 381040640  2-Apr-2020 17:07 Adanced React.zip
+ 4063726 -rw-r--r--  1000   1000 1873173878  2-Apr-2020 17:29 Advanced Reactjs-Udemy.zip
+X4063813 -rw-------  1000   1000     29923  2-Apr-2020 17:23 .bash_history-04118.tmp
+
+dir_partition inode=4091329
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /home/thinkpad/Advanced Reactjs-Udemy
+ 4091329 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 .
+ 4066314 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:23 ..
+ 4912999 drwxrwxrwx  1000   1000      4096 24-Dec-2019 10:58 server
+ 4758200 drwxrwxrwx  1000   1000      4096 23-Dec-2019 15:55 Jest-demo
+ 8178268 drwxrwxrwx  1000   1000      4096 18-Mar-2020 15:11 test
+ 5017457 drwxrwxrwx  1000   1000      4096 27-Feb-2020 16:52 online-shopping
+ 4760547 drwxrwxrwx  1000   1000      4096 27-Dec-2019 17:49 e-commerce
+ 4761597 drwxrwxrwx     0      0      4096  5-Feb-2020 11:09 styled-component
+ 4114438 drwxrwxrwx  1000   1000      4096 15-Feb-2020 13:16 redux-saga-example
+X4855832 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 covid-19
+ 8389038 drwxrwxrwx  1000   1000      4096 11-Feb-2020 12:30 higher-order-components-demo
+ 4918234 drwxrwxrwx     0      0      4096 22-Feb-2020 11:36 portal-demo
+ 8427749 drwxrwxrwx     0      0      4096 23-Mar-2020 17:26 context-api
+ 6165462 drwxr-xr-x  1000   1000      4096 27-Mar-2020 11:56 mansi-blog
+  874597 drwxrwxrwx  1000   1000      4096 26-Feb-2020 12:23 Callback-React
+ 9050143 drwxrwxrwx     0      0      4096 26-Feb-2020 11:11 callbackreact-demo
+ 6819399 drwxrwxrwx     0      0      4096 29-Feb-2020 13:07 book-graphql
+ 5330234 drwxrwxrwx  1000   1000      4096 28-Feb-2020 17:22 fullstack-tutorial
+ 4078925 -rwxrwxrwx  1000   1000 139828793 16-Feb-2018 19:56 xampp-linux-x64-7.2.2-0-installer.run
+ 6038025 drwxrwxrwx     0      0      4096  5-Mar-2020 10:04 redux-demo
+ 4072418 drwxrwxrwx  1000   1000      4096  4-Mar-2020 18:04 hello-world-getsby
+ 6228405 drwxrwxrwx     0      0      4096  5-Mar-2020 16:23 higher-order-comp-demo
+ 4083477 drwxrwxrwx     0      0      4096  6-Mar-2020 12:53 counter-thunk-app
+ 5967804 drwxrwxrwx     0      0      4096  6-Mar-2020 18:06 usecallback-usememo
+ 8389029 drwxrwxrwx     0      0      4096  8-Mar-2020 11:21 async-thunk-app
+ 4129277 drwxrwxrwx  1000   1000      4096 18-Mar-2020 13:04 robofriends-redux
+ 4469148 drwxrwxrwx     0      0      4096 24-Mar-2020 18:11 react-questions
+ 4129872 drwxr-xr-x  1000   1000      4096 18-Mar-2020 13:13 Robofreinds-testcases-demo
+ 6722756 drwxrwxrwx     0      0      4096 19-Mar-2020 15:38 reactdocker
+ 5273293 drwxrwxrwx     0      0      4096 23-Mar-2020 14:25 redux-form
+ 5272833 drwxrwxrwx     0      0      4096 28-Mar-2020 19:01 slack-clone-app
+ 5394311 drwxrwxrwx     0      0      4096 31-Mar-2020 17:47 country-map
+ 4855397 drwxrwxrwx  1000   1000      4096  2-Apr-2020 21:08 COVID19-React
+
+dir_partition inode=4855832
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /home/thinkpad/Advanced Reactjs-Udemy/covid-19
+ 4855832 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 .
+ 4855511 drwxrwxrwx  1000   1000      4096  2-Apr-2020 18:25 ..
+X4855845 -rwxrwxrwx  1000   1000       196  2-Apr-2020 18:17 tmp_obj_yjXoBg
+ 4855833 -rwxrwxrwx  1000   1000       333  2-Apr-2020 18:17 b5e053450a48a6bdb4d71aad648e7af821975c
+ 4855845 -rwxrwxrwx  1000   1000       196  2-Apr-2020 18:17 b1a275a0ea7df518f17bcea5375abf003abe55
+X5789548 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 AccordionContext
+X5789550 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 AccordionToggle
+X7881132 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Alert
+X7881135 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Badge
+X8010029 -rw-r--r--     0      0         0  2-Apr-2020 16:06 BootstrapModalManager
+X8010149 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Breadcrumb
+X8010177 -rw-r--r--     0      0         0  2-Apr-2020 16:06 BreadcrumbItem
+X8010192 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Button
+X8010250 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ButtonGroup
+X8011004 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ButtonToolbar
+X8011009 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Card
+X8011011 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 CardColumns
+X8011013 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 CardContext
+X8011015 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 CardDeck
+X8011017 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 CardGroup
+X8011019 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 CardImg
+X8011021 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Carousel
+X8265385 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CarouselCaption
+X8265544 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CarouselItem
+X8268770 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CloseButton
+X8268868 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Col
+X8268906 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Collapse
+X8268962 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Container
+X8269636 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 createChainedFunction
+X8269638 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 createWithBsPrefix
+X8269640 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 divWithClassName
+X8269643 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Dropdown
+X8269648 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 DropdownButton
+X8269652 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 DropdownItem
+X8269656 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 DropdownMenu
+X8269658 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 DropdownToggle
+X8269664 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ElementChildren
+X8269666 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Fade
+X8269670 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Feedback
+X8269673 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Figure
+X8659727 -rw-rw-r--  1000   1000         0  2-Apr-2020 16:06 FigureCaption
+X8659729 -rw-rw-r--  1000   1000         0  2-Apr-2020 16:06 FigureImage
+X8659733 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Form
+X8659736 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormCheck
+X8659740 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormCheckInput
+X8659744 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormCheckLabel
+X8659828 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormContext
+X8659831 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormControl
+X8659833 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormFile
+X8659836 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormFileInput
+X8659841 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormFileLabel
+X8659845 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormGroup
+X8659847 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormLabel
+X8659851 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormText
+X8659856 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Image
+X8659860 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 InputGroup
+X8659864 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Jumbotron
+X8659868 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ListGroup
+X8659872 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ListGroupItem
+X8659879 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Media
+X8659886 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Modal
+X8659889 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalBody
+X8659891 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalContext
+X8659961 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalDialog
+X8660041 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalFooter
+X8660091 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalHeader
+X8660105 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalTitle
+X8660110 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Nav
+X8662346 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Navbar
+X8662348 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavbarBrand
+X8662350 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavbarCollapse
+X8662352 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavbarContext
+X8662354 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavbarToggle
+X8662356 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavContext
+X8662358 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavDropdown
+X8662360 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavItem
+X8662362 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavLink
+X8810994 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Overlay
+X8810996 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 OverlayTrigger
+X4866833 -rw-r--r--     0      0         0  2-Apr-2020 16:06 package.json
+X6191948 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 PageItem
+X6712730 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Pagination
+X6821783 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Popover
+X7221741 -rw-r--r--     0      0         0  2-Apr-2020 16:06 PopoverContent
+X7355449 -rw-r--r--     0      0         0  2-Apr-2020 16:06 PopoverTitle
+X7491276 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ProgressBar
+X7623980 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ResponsiveEmbed
+X7748392 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Row
+X7881150 -rw-r--r--     0      0         0  2-Apr-2020 16:06 SafeAnchor
+X8810998 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 SelectableContext
+X8811001 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Spinner
+X8811005 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 SplitButton
+X8811008 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Switch
+X8922169 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Tab
+X8939354 -rw-r--r--     0      0         0  2-Apr-2020 16:06 TabContainer
+X8939496 -rw-r--r--     0      0         0  2-Apr-2020 16:06 TabContent
+X8940605 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 TabContext
+X8940623 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Table
+X8940667 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 TabPane
+X8940808 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Tabs
+X8940813 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ThemeProvider
+X8940818 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Toast
+X8940820 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ToastBody
+X8940823 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ToastContext
+X8940826 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ToastHeader
+X8940829 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ToggleButton
+X8940832 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ToggleButtonGroup
+X8940836 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Tooltip
+X8940840 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 triggerBrowserReflow
+X8940842 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 useWrappedRefWithWarning
+X4866904 -rw-r--r--     0      0         0  2-Apr-2020 16:06 README.md
+X4866908 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Accordion.d.ts
+X4866912 -rw-r--r--     0      0         0  2-Apr-2020 16:06 AccordionCollapse.d.ts
+X4866916 -rw-r--r--     0      0         0  2-Apr-2020 16:06 AccordionToggle.d.ts
+X4866922 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Alert.d.ts
+X4866926 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Badge.d.ts
+X4866930 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Breadcrumb.d.ts
+X4866934 -rw-r--r--     0      0         0  2-Apr-2020 16:06 BreadcrumbItem.d.ts
+X4866939 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Button.d.ts
+X4866943 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ButtonGroup.d.ts
+X4866947 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ButtonToolbar.d.ts
+X4866951 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Card.d.ts
+X4866956 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CardColumns.d.ts
+X4866960 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CardDeck.d.ts
+X4866964 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CardGroup.d.ts
+X4866968 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CardImg.d.ts
+X4866972 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Carousel.d.ts
+X4866976 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CarouselCaption.d.ts
+X4866980 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CarouselItem.d.ts
+X4866984 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CloseButton.d.ts
+X4866988 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Col.d.ts
+X4866992 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Collapse.d.ts
+X4866997 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Container.d.ts
+X4867001 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Dropdown.d.ts
+X4867005 -rw-r--r--     0      0         0  2-Apr-2020 16:06 DropdownButton.d.ts
+X4867009 -rw-r--r--     0      0         0  2-Apr-2020 16:06 DropdownItem.d.ts
+X4867013 -rw-r--r--     0      0         0  2-Apr-2020 16:06 DropdownMenu.d.ts
+X4867017 -rw-r--r--     0      0         0  2-Apr-2020 16:06 DropdownToggle.d.ts
+X4867023 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Fade.d.ts
+X4867027 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Feedback.d.ts
+X4867031 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Figure.d.ts
+X4867035 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FigureCaption.d.ts
+X4867039 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FigureImage.d.ts
+X4867041 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Form.d.ts
+X4867045 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormCheck.d.ts
+X4867049 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormCheckInput.d.ts
+X4867051 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormCheckLabel.d.ts
+X4867056 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormControl.d.ts
+X4867060 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormFile.d.ts
+X4867064 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormFileInput.d.ts
+X4867068 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormFileLabel.d.ts
+X4867072 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormGroup.d.ts
+X4867076 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormLabel.d.ts
+X4867080 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormText.d.ts
+X4867084 -rw-r--r--     0      0         0  2-Apr-2020 16:06 helpers.d.ts
+X4867088 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Image.d.ts
+X4867092 -rw-r--r--     0      0         0  2-Apr-2020 16:06 index.d.ts
+X4867096 -rw-r--r--     0      0         0  2-Apr-2020 16:06 InputGroup.d.ts
+X4867100 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Jumbotron.d.ts
+X4867104 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ListGroup.d.ts
+X4867108 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ListGroupItem.d.ts
+X4867111 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Media.d.ts
+X4867115 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Modal.d.ts
+X4867119 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ModalBody.d.ts
+X4867123 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ModalDialog.d.ts
+X4867127 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ModalFooter.d.ts
+X4867131 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ModalHeader.d.ts
+X4867135 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ModalTitle.d.ts
+X4867139 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Nav.d.ts
+X4867143 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Navbar.d.ts
+X4867147 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavbarBrand.d.ts
+X4867151 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavbarCollapse.d.ts
+X4867155 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavbarToggle.d.ts
+X4867160 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavDropdown.d.ts
+X4867163 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavItem.d.ts
+X4867167 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavLink.d.ts
+X4867172 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Overlay.d.ts
+X4867176 -rw-r--r--     0      0         0  2-Apr-2020 16:06 OverlayTrigger.d.ts
+X4867179 -rw-r--r--     0      0         0  2-Apr-2020 16:06 PageItem.d.ts
+X4867181 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Pagination.d.ts
+X4867183 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Popover.d.ts
+X4867185 -rw-r--r--     0      0         0  2-Apr-2020 16:06 PopoverContent.d.ts
+X4867187 -rw-r--r--     0      0         0  2-Apr-2020 16:06 PopoverTitle.d.ts
+X4867189 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ProgressBar.d.ts
+X4867191 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ResponsiveEmbed.d.ts
+X4867194 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Row.d.ts
+Directory /home/thinkpad/Advanced Reactjs-Udemy
+ 4091329 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 .
+ 4066314 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:23 ..
+ 4912999 drwxrwxrwx  1000   1000      4096 24-Dec-2019 10:58 server
+ 4758200 drwxrwxrwx  1000   1000      4096 23-Dec-2019 15:55 Jest-demo
+ 8178268 drwxrwxrwx  1000   1000      4096 18-Mar-2020 15:11 test
+ 5017457 drwxrwxrwx  1000   1000      4096 27-Feb-2020 16:52 online-shopping
+ 4760547 drwxrwxrwx  1000   1000      4096 27-Dec-2019 17:49 e-commerce
+ 4761597 drwxrwxrwx     0      0      4096  5-Feb-2020 11:09 styled-component
+ 4114438 drwxrwxrwx  1000   1000      4096 15-Feb-2020 13:16 redux-saga-example
+X4855832 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 covid-19
+ 8389038 drwxrwxrwx  1000   1000      4096 11-Feb-2020 12:30 higher-order-components-demo
+ 4918234 drwxrwxrwx     0      0      4096 22-Feb-2020 11:36 portal-demo
+ 8427749 drwxrwxrwx     0      0      4096 23-Mar-2020 17:26 context-api
+ 6165462 drwxr-xr-x  1000   1000      4096 27-Mar-2020 11:56 mansi-blog
+  874597 drwxrwxrwx  1000   1000      4096 26-Feb-2020 12:23 Callback-React
+ 9050143 drwxrwxrwx     0      0      4096 26-Feb-2020 11:11 callbackreact-demo
+ 6819399 drwxrwxrwx     0      0      4096 29-Feb-2020 13:07 book-graphql
+ 5330234 drwxrwxrwx  1000   1000      4096 28-Feb-2020 17:22 fullstack-tutorial
+ 4078925 -rwxrwxrwx  1000   1000 139828793 16-Feb-2018 19:56 xampp-linux-x64-7.2.2-0-installer.run
+ 6038025 drwxrwxrwx     0      0      4096  5-Mar-2020 10:04 redux-demo
+ 4072418 drwxrwxrwx  1000   1000      4096  4-Mar-2020 18:04 hello-world-getsby
+ 6228405 drwxrwxrwx     0      0      4096  5-Mar-2020 16:23 higher-order-comp-demo
+ 4083477 drwxrwxrwx     0      0      4096  6-Mar-2020 12:53 counter-thunk-app
+ 5967804 drwxrwxrwx     0      0      4096  6-Mar-2020 18:06 usecallback-usememo
+ 8389029 drwxrwxrwx     0      0      4096  8-Mar-2020 11:21 async-thunk-app
+ 4129277 drwxrwxrwx  1000   1000      4096 18-Mar-2020 13:04 robofriends-redux
+ 4469148 drwxrwxrwx     0      0      4096 24-Mar-2020 18:11 react-questions
+ 4129872 drwxr-xr-x  1000   1000      4096 18-Mar-2020 13:13 Robofreinds-testcases-demo
+ 6722756 drwxrwxrwx     0      0      4096 19-Mar-2020 15:38 reactdocker
+ 5273293 drwxrwxrwx     0      0      4096 23-Mar-2020 14:25 redux-form
+ 5272833 drwxrwxrwx     0      0      4096 28-Mar-2020 19:01 slack-clone-app
+ 5394311 drwxrwxrwx     0      0      4096 31-Mar-2020 17:47 country-map
+ 4855397 drwxrwxrwx  1000   1000      4096  2-Apr-2020 21:08 COVID19-React
+
+dir_partition inode=4855397
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /home/thinkpad/Advanced Reactjs-Udemy/COVID19-React
+ 4855397 drwxrwxrwx  1000   1000      4096  2-Apr-2020 21:08 .
+ 4091329 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 ..
+ 4855398 drwxrwxrwx  1000   1000      4096  2-Apr-2020 18:25 .git
+ 4855864 -rwxrwxrwx  1000   1000       310  2-Apr-2020 16:26 .gitignore
+ 4855865 -rwxrwxrwx  1000   1000      2907  2-Apr-2020 16:26 README.md
+ 4855866 -rwxrwxrwx  1000   1000    601285  2-Apr-2020 16:26 package-lock.json
+ 4855867 -rwxrwxrwx  1000   1000       744  2-Apr-2020 16:26 package.json
+ 4855868 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 public
+ 4855875 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 src
+ 4855884 drwxr-xr-x  1000   1000     36864  2-Apr-2020 16:28 node_modules
+ 4855477 -rw-r--r--  1000   1000     82304  2-Apr-2020 21:37 testdisk.log
+X9570321 -rwxrwxrwx     0      0      4934 26-Oct-1985 13:45 emoji-regex-cef1b77d
+X9571806 -rwxrwxrwx     0      0     12002 26-Oct-1985 13:45 workbox-routing-5bcc3b38
+X9571786 -rwxrwxrwx     0      0     10721 26-Oct-1985 13:45 workbox-google-analytics-f7b1ca29
+X9570305 -rwxrwxrwx     0      0       460 26-Oct-1985 13:45 string-width-a5b28cde
+X5308170 -rwxrwxrwx     0      0      2676 26-Oct-1985 13:45 semver-1cf88a00
+X9573665 -rwxrwxrwx     0      0       363 26-Oct-1985 13:45 binary-extensions-ad04fa77
+X9570259 drwxrwxrwx     0      0         0  2-Apr-2020 16:26 jest-jasmine2-256cfd94
+X9570468 -rwxrwxrwx     0      0       538 26-Oct-1985 13:45 cacache-fe77c637
+X9572103 -rwxrwxrwx     0      0      1067 26-Oct-1985 13:45 which-module-b4190e56
+X9573640 -rwxrwxrwx     0      0      1012 26-Oct-1985 13:45 normalize-path-195a50d0
+X9699509 -rwxrwxrwx     0      0       524 26-Oct-1985 13:45 memory-fs-1d3749d5
+X9699630 -rwxrwxrwx     0      0      3100 28-Mar-2020 10:08 jest-util-10cd35b7
+X9700176 -rwxrwxrwx     0      0      1849 26-Oct-1985 13:45 css-a4612270
+X9700453 -rwxrwxrwx     0      0      6894 26-Oct-1985 13:45 has-values-021fa2bc
+X9700454 -rwxrwxrwx     0      0     11102 28-Mar-2020 10:08 isobject-77b0e253
+X9700554 -rwxrwxrwx     0      0      1142 26-Oct-1985 13:45 unique-filename-801ad4a1
+X9700624 -rwxrwxrwx     0      0       966 26-Oct-1985 13:45 uniqs-0d666ad8
+X9701113 -rwxrwxrwx     0      0      2285 26-Oct-1985 13:45 union-value-b1a84b65
+X9701241 -rwxrwxrwx     0      0       672 26-Oct-1985 13:45 typedarray-a5c37a66
+X9701243 -rwxrwxrwx     0      0      3310 26-Oct-1985 13:45 globals-9307594d
+X9701334 -rwxrwxrwx     0      0     19543 26-Oct-1985 13:45 type-check-e8f08c9c
+X9701393 -rwxrwxrwx     0      0      3938 16-Sep-2018 14:56 es6-symbol-ff565f4d
+X9701512 -rwxrwxrwx     0      0      1152 26-Oct-1985 13:45 rxjs-7023c501
+X9702181 -rwxrwxrwx     0      0      1810 26-Oct-1985 13:45 babel-plugin-jest-hoist-c585a6ed
+X9702789 -rwxrwxrwx     0      0      2693 26-Oct-1985 13:45 postcss-reduce-transforms-c594dd92
+X9703096 -rwxrwxrwx     0      0      1103  9-Jun-2017 19:30 postcss-font-variant-060cbf52
+X9703120 -rwxrwxrwx     0      0       316 26-Oct-1985 13:45 postcss-focus-visible-18875436
+X9703562 -rwxrwxrwx     0      0      7109 26-Oct-1985 13:45 ansi-regex-e9d9cbeb
+X9703698 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 object.entries-4900b42a
+X9704173 -rwxrwxrwx     0      0       662 26-Oct-1985 13:45 define-property-ec9a0193
+X9704192 -rwxrwxrwx     0      0        14 26-Oct-1985 13:45 cosmiconfig-673bdf24
+X9704251 -rwxrwxrwx     0      0       422 30-Apr-2016 22:40 split-string-2208f91b
+X9704271 -rwxrwxrwx     0      0      1570 26-Oct-1985 13:45 source-map-url-89cba41a
+X9704355 -rwxrwxrwx     0      0      1864 26-Oct-1985 13:45 define-property-2e13021d
+X9843719 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 debug-1fc0d71d
+X9843728 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 mime-ad0ea111
+X9843810 -rwxrwxrwx     0      0      2338 26-Oct-1985 13:45 browserslist-b996e39c
+X9843918 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 safe-regex-03a9c705
+X9847371 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 cipher-base-4550ca14
+X9855771 -rwxrwxrwx     0      0      1361 26-Oct-1985 13:45 run-async-193ffd8d
+X9857881 drwxrwxr-x  1000   1000      4096 27-Mar-2020 14:30 relateurl-7c7c3c4d
+X9857882 -rwxrwxrwx     0      0       601 26-Oct-1985 13:45 regjsparser-d1e3c275
+X9858014 -rwxrwxrwx     0      0      9216 26-Oct-1985 13:45 regenerator-transform-7b64be16
+X9972756 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 path-key-25d935b4
+X9972798 -rwxrwxrwx     0      0     32034 23-Aug-2018 01:30 p-locate-845c0292
+X9972988 -rwxrwxrwx     0      0      1081 26-Oct-1985 13:45 q-33751dd7
+X9973751 -rwxrwxrwx     0      0      1197 25-Jul-2017 12:28 postcss-value-parser-cd17916b
+X9973786 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 postcss-value-parser-de124bde
+X9973787 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 postcss-value-parser-705ebfee
+X9973830 -rwxrwxrwx     0      0      7777 25-Oct-2019 02:48 cssesc-ecc893e6
+X9973832 -rwxrwxrwx     0      0      6434 28-Mar-2018 10:47 postcss-value-parser-ce7b21cf
+X9985645 -rwxrwxrwx     0      0      1114 26-Oct-1985 13:45 loader-fs-cache-5338f481
+X9985785 -rwxrwxrwx     0      0      2180 24-May-2018 00:54 path-type-59ce10e6
+X9985879 -rwxrwxrwx     0      0      3781 11-Feb-2019 03:37 path-parse-4cbf785a
+X9985880 -rwxrwxrwx     0      0      2467 26-Oct-1985 13:45 npm-run-path-63297558
+X9985895 -rwxrwxrwx     0      0       209 29-May-2016 11:11 path-is-absolute-c235c06f
+X9985934 -rwxrwxrwx     0      0       158 26-Oct-1985 13:45 path-dirname-f50c33d0
+X10106249 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 parent-module-05084660
+X10106556 -rwxrwxrwx     0      0      1574 28-Mar-2020 10:08 object-assign-f6e87dc3
+X10106614 -rwxrwxrwx     0      0      7397 26-Oct-1985 13:45 punycode-c7e500bf
+X10107116 -rwxrwxrwx     0      0      1074 26-Oct-1985 13:45 nice-try-c3140e8b
+X10107140 -rwxrwxrwx     0      0      1582 28-Mar-2020 10:08 accepts-aca8aae7
+X10120412 -rwxrwxrwx     0      0        44  4-Jan-2018 01:41 minimalistic-assert-8318bfa0
+X10120544 -rwxrwxrwx     0      0      9402  5-Nov-2017 06:00 merge2-b4890bea
+X10226159 -rwxrwxrwx     0      0      1545 26-Oct-1985 13:45 jsonfile-d5c205b5
+X10226293 -rwxrwxrwx     0      0      2034 26-Oct-1985 13:45 jsbn-bb5d8c70
+X10226295 -rwxrwxrwx     0      0     71138 17-May-2019 19:34 supports-color-e942fd73
+X10226338 -rwxrwxrwx     0      0      2541 26-Oct-1985 13:45 jest-pnp-resolver-66cfba15
+X10226398 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 istanbul-lib-coverage-0d28c691
+X10226587 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 isexe-4877ac7e
+X10226701 -rwxrwxrwx     0      0      1951 13-Aug-2016 23:03 is-promise-9996af45
+X10226941 -rwxrwxrwx     0      0      1114 26-Oct-1985 13:45 extend-shallow-553323ce
+X10227127 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 has-flag-1e0d3efc
+X10227239 -rwxrwxrwx     0      0      3833 26-Oct-1985 13:45 aggregate-error-3bec9619
+X10227319 -rwxrwxrwx     0      0       797 26-Oct-1985 13:45 inherits-65b7221a
+X10227396 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 hsla-regex-1efef83e
+X10227447 -rwxrwxrwx     0      0      1886 26-Oct-1985 13:45 has-ansi-00ce29a6
+X10227582 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 ignore-ec3b819c
+X10227719 -rwxrwxrwx     0      0      6483 26-Oct-1985 13:45 get-caller-file-e3c72f87
+X10227744 -rwxrwxrwx     0      0      3060 18-Apr-2017 03:54 fs.realpath-c8ca0569
+X10228130 -rwxrwxrwx     0      0      4169 26-Oct-1985 13:45 estraverse-f7fdefb0
+X 271438 -rwxrwxrwx     0      0        45 17-Jul-2013 03:51 debug-3c28d3b8
+X 271713 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 kind-of-c0f3f3e7
+X 272157 -rwxrwxrwx     0      0       579 13-Feb-2018 21:47 cssnano-util-same-parent-54ae4318
+X 273063 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 connect-history-api-fallback-97b2dca0
+X 273172 -rwxrwxrwx     0      0        40 15-Jun-2017 05:46 commondir-b8f4f931
+X 275371 -rwxrwxrwx     0      0      4926 28-Mar-2020 10:08 braces-c38553e7
+X 277335 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 chardet-9eb40d79
+X 279033 -rwxrwxrwx     0      0       160  7-May-2017 07:48 browser-process-hrtime-33f76907
+X 279549 -rwxrwxrwx     0      0      1841 28-Mar-2020 10:08 aws4-efe38212
+X 279651 -rwxrwxrwx     0      0       309 26-Oct-1985 13:45 ast-types-flow-c055f492
+X 279898 -rwxrwxrwx     0      0      1078 26-Oct-1985 13:45 type-fest-2da0704a
+X 280042 -rwxrwxrwx     0      0       353  8-Sep-2015 01:03 acorn-6a8bc0ae
+X 280083 -rwxrwxrwx     0      0        29 25-Mar-2017 23:12 abab-e405e9d0
+X 280634 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 source-map-5b3e7fc6
+X9858014 -rwxrwxrwx     0      0      9216 26-Oct-1985 13:45 regenerator-transform-7b64be16
+X9972756 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 path-key-25d935b4
+X9972798 -rwxrwxrwx     0      0     32034 23-Aug-2018 01:30 p-locate-845c0292
+X9972988 -rwxrwxrwx     0      0      1081 26-Oct-1985 13:45 q-33751dd7
+X9973751 -rwxrwxrwx     0      0      1197 25-Jul-2017 12:28 postcss-value-parser-cd17916b
+X9973786 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 postcss-value-parser-de124bde
+X9973787 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 postcss-value-parser-705ebfee
+X9973830 -rwxrwxrwx     0      0      7777 25-Oct-2019 02:48 cssesc-ecc893e6
+X9973832 -rwxrwxrwx     0      0      6434 28-Mar-2018 10:47 postcss-value-parser-ce7b21cf
+X9985645 -rwxrwxrwx     0      0      1114 26-Oct-1985 13:45 loader-fs-cache-5338f481
+X9985785 -rwxrwxrwx     0      0      2180 24-May-2018 00:54 path-type-59ce10e6
+X9985879 -rwxrwxrwx     0      0      3781 11-Feb-2019 03:37 path-parse-4cbf785a
+X9985880 -rwxrwxrwx     0      0      2467 26-Oct-1985 13:45 npm-run-path-63297558
+X9985895 -rwxrwxrwx     0      0       209 29-May-2016 11:11 path-is-absolute-c235c06f
+X9985934 -rwxrwxrwx     0      0       158 26-Oct-1985 13:45 path-dirname-f50c33d0
+X10106249 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 parent-module-05084660
+X10106556 -rwxrwxrwx     0      0      1574 28-Mar-2020 10:08 object-assign-f6e87dc3
+
+dir_partition inode=4855875
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /home/thinkpad/Advanced Reactjs-Udemy/COVID19-React/src
+ 4855875 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 .
+ 4855397 drwxrwxrwx  1000   1000      4096  2-Apr-2020 21:08 ..
+ 4855876 -rwxrwxrwx  1000   1000       564  2-Apr-2020 16:26 App.css
+ 4855877 -rwxrwxrwx  1000   1000       179  2-Apr-2020 18:24 App.js
+ 4855878 -rwxrwxrwx  1000   1000       280  2-Apr-2020 16:26 App.test.js
+ 4855879 -rwxrwxrwx  1000   1000       366  2-Apr-2020 16:26 index.css
+ 4855880 -rwxrwxrwx  1000   1000       503  2-Apr-2020 16:26 index.js
+ 4855881 -rwxrwxrwx  1000   1000      2671  2-Apr-2020 16:26 logo.svg
+ 4855882 -rwxrwxrwx  1000   1000      5086  2-Apr-2020 16:26 serviceWorker.js
+ 4855883 -rwxrwxrwx  1000   1000       255  2-Apr-2020 16:26 setupTests.js
+Directory /home/thinkpad/Advanced Reactjs-Udemy/COVID19-React
+ 4855397 drwxrwxrwx  1000   1000      4096  2-Apr-2020 21:08 .
+ 4091329 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 ..
+ 4855398 drwxrwxrwx  1000   1000      4096  2-Apr-2020 18:25 .git
+ 4855864 -rwxrwxrwx  1000   1000       310  2-Apr-2020 16:26 .gitignore
+ 4855865 -rwxrwxrwx  1000   1000      2907  2-Apr-2020 16:26 README.md
+ 4855866 -rwxrwxrwx  1000   1000    601285  2-Apr-2020 16:26 package-lock.json
+ 4855867 -rwxrwxrwx  1000   1000       744  2-Apr-2020 16:26 package.json
+ 4855868 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 public
+ 4855875 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 src
+ 4855884 drwxr-xr-x  1000   1000     36864  2-Apr-2020 16:28 node_modules
+ 4855477 -rw-r--r--  1000   1000     82304  2-Apr-2020 21:37 testdisk.log
+X9570321 -rwxrwxrwx     0      0      4934 26-Oct-1985 13:45 emoji-regex-cef1b77d
+X9571806 -rwxrwxrwx     0      0     12002 26-Oct-1985 13:45 workbox-routing-5bcc3b38
+X9571786 -rwxrwxrwx     0      0     10721 26-Oct-1985 13:45 workbox-google-analytics-f7b1ca29
+X9570305 -rwxrwxrwx     0      0       460 26-Oct-1985 13:45 string-width-a5b28cde
+X5308170 -rwxrwxrwx     0      0      2676 26-Oct-1985 13:45 semver-1cf88a00
+X9573665 -rwxrwxrwx     0      0       363 26-Oct-1985 13:45 binary-extensions-ad04fa77
+X9570259 drwxrwxrwx     0      0         0  2-Apr-2020 16:26 jest-jasmine2-256cfd94
+X9570468 -rwxrwxrwx     0      0       538 26-Oct-1985 13:45 cacache-fe77c637
+X9572103 -rwxrwxrwx     0      0      1067 26-Oct-1985 13:45 which-module-b4190e56
+X9573640 -rwxrwxrwx     0      0      1012 26-Oct-1985 13:45 normalize-path-195a50d0
+X9699509 -rwxrwxrwx     0      0       524 26-Oct-1985 13:45 memory-fs-1d3749d5
+X9699630 -rwxrwxrwx     0      0      3100 28-Mar-2020 10:08 jest-util-10cd35b7
+X9700176 -rwxrwxrwx     0      0      1849 26-Oct-1985 13:45 css-a4612270
+X9700453 -rwxrwxrwx     0      0      6894 26-Oct-1985 13:45 has-values-021fa2bc
+X9700454 -rwxrwxrwx     0      0     11102 28-Mar-2020 10:08 isobject-77b0e253
+X9700554 -rwxrwxrwx     0      0      1142 26-Oct-1985 13:45 unique-filename-801ad4a1
+X9700624 -rwxrwxrwx     0      0       966 26-Oct-1985 13:45 uniqs-0d666ad8
+X9701113 -rwxrwxrwx     0      0      2285 26-Oct-1985 13:45 union-value-b1a84b65
+X9701241 -rwxrwxrwx     0      0       672 26-Oct-1985 13:45 typedarray-a5c37a66
+X9701243 -rwxrwxrwx     0      0      3310 26-Oct-1985 13:45 globals-9307594d
+X9701334 -rwxrwxrwx     0      0     19543 26-Oct-1985 13:45 type-check-e8f08c9c
+X9701393 -rwxrwxrwx     0      0      3938 16-Sep-2018 14:56 es6-symbol-ff565f4d
+X9701512 -rwxrwxrwx     0      0      1152 26-Oct-1985 13:45 rxjs-7023c501
+X9702181 -rwxrwxrwx     0      0      1810 26-Oct-1985 13:45 babel-plugin-jest-hoist-c585a6ed
+X9702789 -rwxrwxrwx     0      0      2693 26-Oct-1985 13:45 postcss-reduce-transforms-c594dd92
+X9703096 -rwxrwxrwx     0      0      1103  9-Jun-2017 19:30 postcss-font-variant-060cbf52
+X9703120 -rwxrwxrwx     0      0       316 26-Oct-1985 13:45 postcss-focus-visible-18875436
+X9703562 -rwxrwxrwx     0      0      7109 26-Oct-1985 13:45 ansi-regex-e9d9cbeb
+X9703698 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 object.entries-4900b42a
+X9704173 -rwxrwxrwx     0      0       662 26-Oct-1985 13:45 define-property-ec9a0193
+X9704192 -rwxrwxrwx     0      0        14 26-Oct-1985 13:45 cosmiconfig-673bdf24
+X9704251 -rwxrwxrwx     0      0       422 30-Apr-2016 22:40 split-string-2208f91b
+X9704271 -rwxrwxrwx     0      0      1570 26-Oct-1985 13:45 source-map-url-89cba41a
+X9704355 -rwxrwxrwx     0      0      1864 26-Oct-1985 13:45 define-property-2e13021d
+X9843719 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 debug-1fc0d71d
+X9843728 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 mime-ad0ea111
+X9843810 -rwxrwxrwx     0      0      2338 26-Oct-1985 13:45 browserslist-b996e39c
+X9843918 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 safe-regex-03a9c705
+X9847371 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 cipher-base-4550ca14
+X9855771 -rwxrwxrwx     0      0      1361 26-Oct-1985 13:45 run-async-193ffd8d
+X9857881 drwxrwxr-x  1000   1000      4096 27-Mar-2020 14:30 relateurl-7c7c3c4d
+X9857882 -rwxrwxrwx     0      0       601 26-Oct-1985 13:45 regjsparser-d1e3c275
+X9858014 -rwxrwxrwx     0      0      9216 26-Oct-1985 13:45 regenerator-transform-7b64be16
+X9972756 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 path-key-25d935b4
+X9972798 -rwxrwxrwx     0      0     32034 23-Aug-2018 01:30 p-locate-845c0292
+X9972988 -rwxrwxrwx     0      0      1081 26-Oct-1985 13:45 q-33751dd7
+X9973751 -rwxrwxrwx     0      0      1197 25-Jul-2017 12:28 postcss-value-parser-cd17916b
+X9973786 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 postcss-value-parser-de124bde
+X9973787 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 postcss-value-parser-705ebfee
+X9973830 -rwxrwxrwx     0      0      7777 25-Oct-2019 02:48 cssesc-ecc893e6
+X9973832 -rwxrwxrwx     0      0      6434 28-Mar-2018 10:47 postcss-value-parser-ce7b21cf
+X9985645 -rwxrwxrwx     0      0      1114 26-Oct-1985 13:45 loader-fs-cache-5338f481
+X9985785 -rwxrwxrwx     0      0      2180 24-May-2018 00:54 path-type-59ce10e6
+X9985879 -rwxrwxrwx     0      0      3781 11-Feb-2019 03:37 path-parse-4cbf785a
+X9985880 -rwxrwxrwx     0      0      2467 26-Oct-1985 13:45 npm-run-path-63297558
+X9985895 -rwxrwxrwx     0      0       209 29-May-2016 11:11 path-is-absolute-c235c06f
+X9985934 -rwxrwxrwx     0      0       158 26-Oct-1985 13:45 path-dirname-f50c33d0
+X10106249 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 parent-module-05084660
+X10106556 -rwxrwxrwx     0      0      1574 28-Mar-2020 10:08 object-assign-f6e87dc3
+X10106614 -rwxrwxrwx     0      0      7397 26-Oct-1985 13:45 punycode-c7e500bf
+X10107116 -rwxrwxrwx     0      0      1074 26-Oct-1985 13:45 nice-try-c3140e8b
+X10107140 -rwxrwxrwx     0      0      1582 28-Mar-2020 10:08 accepts-aca8aae7
+X10120412 -rwxrwxrwx     0      0        44  4-Jan-2018 01:41 minimalistic-assert-8318bfa0
+X10120544 -rwxrwxrwx     0      0      9402  5-Nov-2017 06:00 merge2-b4890bea
+X10226159 -rwxrwxrwx     0      0      1545 26-Oct-1985 13:45 jsonfile-d5c205b5
+X10226293 -rwxrwxrwx     0      0      2034 26-Oct-1985 13:45 jsbn-bb5d8c70
+X10226295 -rwxrwxrwx     0      0     71138 17-May-2019 19:34 supports-color-e942fd73
+X10226338 -rwxrwxrwx     0      0      2541 26-Oct-1985 13:45 jest-pnp-resolver-66cfba15
+X10226398 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 istanbul-lib-coverage-0d28c691
+X10226587 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 isexe-4877ac7e
+X10226701 -rwxrwxrwx     0      0      1951 13-Aug-2016 23:03 is-promise-9996af45
+X10226941 -rwxrwxrwx     0      0      1114 26-Oct-1985 13:45 extend-shallow-553323ce
+X10227127 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 has-flag-1e0d3efc
+X10227239 -rwxrwxrwx     0      0      3833 26-Oct-1985 13:45 aggregate-error-3bec9619
+X10227319 -rwxrwxrwx     0      0       797 26-Oct-1985 13:45 inherits-65b7221a
+X10227396 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 hsla-regex-1efef83e
+X10227447 -rwxrwxrwx     0      0      1886 26-Oct-1985 13:45 has-ansi-00ce29a6
+X10227582 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 ignore-ec3b819c
+X10227719 -rwxrwxrwx     0      0      6483 26-Oct-1985 13:45 get-caller-file-e3c72f87
+X10227744 -rwxrwxrwx     0      0      3060 18-Apr-2017 03:54 fs.realpath-c8ca0569
+X10228130 -rwxrwxrwx     0      0      4169 26-Oct-1985 13:45 estraverse-f7fdefb0
+X 271438 -rwxrwxrwx     0      0        45 17-Jul-2013 03:51 debug-3c28d3b8
+X 271713 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 kind-of-c0f3f3e7
+X 272157 -rwxrwxrwx     0      0       579 13-Feb-2018 21:47 cssnano-util-same-parent-54ae4318
+X 273063 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 connect-history-api-fallback-97b2dca0
+X 273172 -rwxrwxrwx     0      0        40 15-Jun-2017 05:46 commondir-b8f4f931
+X 275371 -rwxrwxrwx     0      0      4926 28-Mar-2020 10:08 braces-c38553e7
+X 277335 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 chardet-9eb40d79
+X 279033 -rwxrwxrwx     0      0       160  7-May-2017 07:48 browser-process-hrtime-33f76907
+X 279549 -rwxrwxrwx     0      0      1841 28-Mar-2020 10:08 aws4-efe38212
+X 279651 -rwxrwxrwx     0      0       309 26-Oct-1985 13:45 ast-types-flow-c055f492
+X 279898 -rwxrwxrwx     0      0      1078 26-Oct-1985 13:45 type-fest-2da0704a
+X 280042 -rwxrwxrwx     0      0       353  8-Sep-2015 01:03 acorn-6a8bc0ae
+X 280083 -rwxrwxrwx     0      0        29 25-Mar-2017 23:12 abab-e405e9d0
+X 280634 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 source-map-5b3e7fc6
+X9858014 -rwxrwxrwx     0      0      9216 26-Oct-1985 13:45 regenerator-transform-7b64be16
+X9972756 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 path-key-25d935b4
+X9972798 -rwxrwxrwx     0      0     32034 23-Aug-2018 01:30 p-locate-845c0292
+X9972988 -rwxrwxrwx     0      0      1081 26-Oct-1985 13:45 q-33751dd7
+X9973751 -rwxrwxrwx     0      0      1197 25-Jul-2017 12:28 postcss-value-parser-cd17916b
+X9973786 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 postcss-value-parser-de124bde
+X9973787 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 postcss-value-parser-705ebfee
+X9973830 -rwxrwxrwx     0      0      7777 25-Oct-2019 02:48 cssesc-ecc893e6
+X9973832 -rwxrwxrwx     0      0      6434 28-Mar-2018 10:47 postcss-value-parser-ce7b21cf
+X9985645 -rwxrwxrwx     0      0      1114 26-Oct-1985 13:45 loader-fs-cache-5338f481
+X9985785 -rwxrwxrwx     0      0      2180 24-May-2018 00:54 path-type-59ce10e6
+X9985879 -rwxrwxrwx     0      0      3781 11-Feb-2019 03:37 path-parse-4cbf785a
+X9985880 -rwxrwxrwx     0      0      2467 26-Oct-1985 13:45 npm-run-path-63297558
+X9985895 -rwxrwxrwx     0      0       209 29-May-2016 11:11 path-is-absolute-c235c06f
+X9985934 -rwxrwxrwx     0      0       158 26-Oct-1985 13:45 path-dirname-f50c33d0
+X10106249 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 parent-module-05084660
+X10106556 -rwxrwxrwx     0      0      1574 28-Mar-2020 10:08 object-assign-f6e87dc3
+
+dir_partition inode=4855398
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /home/thinkpad/Advanced Reactjs-Udemy/COVID19-React/.git
+ 4855398 drwxrwxrwx  1000   1000      4096  2-Apr-2020 18:25 .
+ 4855397 drwxrwxrwx  1000   1000      4096  2-Apr-2020 21:08 ..
+ 4855414 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 branches
+ 4855423 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 info
+ 4855425 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 hooks
+ 4855503 -rwxrwxrwx  1000   1000        73  2-Apr-2020 16:26 description
+ 4855504 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 refs
+ 4855511 drwxrwxrwx  1000   1000      4096  2-Apr-2020 18:25 objects
+ 4855859 -rwxrwxrwx  1000   1000        23  2-Apr-2020 16:26 HEAD
+ 4855512 -rwxrwxrwx  1000   1000       274  2-Apr-2020 16:26 config
+ 4855854 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 logs
+X4855510 -rw-r--r--  1000   1000         0  2-Apr-2020 18:25 HEAD.lock
+ 4855415 -rw-r--r--  1000   1000      1597  2-Apr-2020 18:25 index
+ 4855851 -rwxrwxrwx  1000   1000       114  2-Apr-2020 16:26 packed-refs
+ 4855379 -rw-r--r--  1000   1000         8  2-Apr-2020 18:25 COMMIT_EDITMSG
+Directory /home/thinkpad/Advanced Reactjs-Udemy/COVID19-React
+ 4855397 drwxrwxrwx  1000   1000      4096  2-Apr-2020 21:08 .
+ 4091329 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 ..
+ 4855398 drwxrwxrwx  1000   1000      4096  2-Apr-2020 18:25 .git
+ 4855864 -rwxrwxrwx  1000   1000       310  2-Apr-2020 16:26 .gitignore
+ 4855865 -rwxrwxrwx  1000   1000      2907  2-Apr-2020 16:26 README.md
+ 4855866 -rwxrwxrwx  1000   1000    601285  2-Apr-2020 16:26 package-lock.json
+ 4855867 -rwxrwxrwx  1000   1000       744  2-Apr-2020 16:26 package.json
+ 4855868 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 public
+ 4855875 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 src
+ 4855884 drwxr-xr-x  1000   1000     36864  2-Apr-2020 16:28 node_modules
+ 4855477 -rw-r--r--  1000   1000     82304  2-Apr-2020 21:37 testdisk.log
+X9570321 -rwxrwxrwx     0      0      4934 26-Oct-1985 13:45 emoji-regex-cef1b77d
+X9571806 -rwxrwxrwx     0      0     12002 26-Oct-1985 13:45 workbox-routing-5bcc3b38
+X9571786 -rwxrwxrwx     0      0     10721 26-Oct-1985 13:45 workbox-google-analytics-f7b1ca29
+X9570305 -rwxrwxrwx     0      0       460 26-Oct-1985 13:45 string-width-a5b28cde
+X5308170 -rwxrwxrwx     0      0      2676 26-Oct-1985 13:45 semver-1cf88a00
+X9573665 -rwxrwxrwx     0      0       363 26-Oct-1985 13:45 binary-extensions-ad04fa77
+X9570259 drwxrwxrwx     0      0         0  2-Apr-2020 16:26 jest-jasmine2-256cfd94
+X9570468 -rwxrwxrwx     0      0       538 26-Oct-1985 13:45 cacache-fe77c637
+X9572103 -rwxrwxrwx     0      0      1067 26-Oct-1985 13:45 which-module-b4190e56
+X9573640 -rwxrwxrwx     0      0      1012 26-Oct-1985 13:45 normalize-path-195a50d0
+X9699509 -rwxrwxrwx     0      0       524 26-Oct-1985 13:45 memory-fs-1d3749d5
+X9699630 -rwxrwxrwx     0      0      3100 28-Mar-2020 10:08 jest-util-10cd35b7
+X9700176 -rwxrwxrwx     0      0      1849 26-Oct-1985 13:45 css-a4612270
+X9700453 -rwxrwxrwx     0      0      6894 26-Oct-1985 13:45 has-values-021fa2bc
+X9700454 -rwxrwxrwx     0      0     11102 28-Mar-2020 10:08 isobject-77b0e253
+X9700554 -rwxrwxrwx     0      0      1142 26-Oct-1985 13:45 unique-filename-801ad4a1
+X9700624 -rwxrwxrwx     0      0       966 26-Oct-1985 13:45 uniqs-0d666ad8
+X9701113 -rwxrwxrwx     0      0      2285 26-Oct-1985 13:45 union-value-b1a84b65
+X9701241 -rwxrwxrwx     0      0       672 26-Oct-1985 13:45 typedarray-a5c37a66
+X9701243 -rwxrwxrwx     0      0      3310 26-Oct-1985 13:45 globals-9307594d
+X9701334 -rwxrwxrwx     0      0     19543 26-Oct-1985 13:45 type-check-e8f08c9c
+X9701393 -rwxrwxrwx     0      0      3938 16-Sep-2018 14:56 es6-symbol-ff565f4d
+X9701512 -rwxrwxrwx     0      0      1152 26-Oct-1985 13:45 rxjs-7023c501
+X9702181 -rwxrwxrwx     0      0      1810 26-Oct-1985 13:45 babel-plugin-jest-hoist-c585a6ed
+X9702789 -rwxrwxrwx     0      0      2693 26-Oct-1985 13:45 postcss-reduce-transforms-c594dd92
+X9703096 -rwxrwxrwx     0      0      1103  9-Jun-2017 19:30 postcss-font-variant-060cbf52
+X9703120 -rwxrwxrwx     0      0       316 26-Oct-1985 13:45 postcss-focus-visible-18875436
+X9703562 -rwxrwxrwx     0      0      7109 26-Oct-1985 13:45 ansi-regex-e9d9cbeb
+X9703698 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 object.entries-4900b42a
+X9704173 -rwxrwxrwx     0      0       662 26-Oct-1985 13:45 define-property-ec9a0193
+X9704192 -rwxrwxrwx     0      0        14 26-Oct-1985 13:45 cosmiconfig-673bdf24
+X9704251 -rwxrwxrwx     0      0       422 30-Apr-2016 22:40 split-string-2208f91b
+X9704271 -rwxrwxrwx     0      0      1570 26-Oct-1985 13:45 source-map-url-89cba41a
+X9704355 -rwxrwxrwx     0      0      1864 26-Oct-1985 13:45 define-property-2e13021d
+X9843719 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 debug-1fc0d71d
+X9843728 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 mime-ad0ea111
+X9843810 -rwxrwxrwx     0      0      2338 26-Oct-1985 13:45 browserslist-b996e39c
+X9843918 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 safe-regex-03a9c705
+X9847371 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 cipher-base-4550ca14
+X9855771 -rwxrwxrwx     0      0      1361 26-Oct-1985 13:45 run-async-193ffd8d
+X9857881 drwxrwxr-x  1000   1000      4096 27-Mar-2020 14:30 relateurl-7c7c3c4d
+X9857882 -rwxrwxrwx     0      0       601 26-Oct-1985 13:45 regjsparser-d1e3c275
+X9858014 -rwxrwxrwx     0      0      9216 26-Oct-1985 13:45 regenerator-transform-7b64be16
+X9972756 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 path-key-25d935b4
+X9972798 -rwxrwxrwx     0      0     32034 23-Aug-2018 01:30 p-locate-845c0292
+X9972988 -rwxrwxrwx     0      0      1081 26-Oct-1985 13:45 q-33751dd7
+X9973751 -rwxrwxrwx     0      0      1197 25-Jul-2017 12:28 postcss-value-parser-cd17916b
+X9973786 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 postcss-value-parser-de124bde
+X9973787 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 postcss-value-parser-705ebfee
+X9973830 -rwxrwxrwx     0      0      7777 25-Oct-2019 02:48 cssesc-ecc893e6
+X9973832 -rwxrwxrwx     0      0      6434 28-Mar-2018 10:47 postcss-value-parser-ce7b21cf
+X9985645 -rwxrwxrwx     0      0      1114 26-Oct-1985 13:45 loader-fs-cache-5338f481
+X9985785 -rwxrwxrwx     0      0      2180 24-May-2018 00:54 path-type-59ce10e6
+X9985879 -rwxrwxrwx     0      0      3781 11-Feb-2019 03:37 path-parse-4cbf785a
+X9985880 -rwxrwxrwx     0      0      2467 26-Oct-1985 13:45 npm-run-path-63297558
+X9985895 -rwxrwxrwx     0      0       209 29-May-2016 11:11 path-is-absolute-c235c06f
+X9985934 -rwxrwxrwx     0      0       158 26-Oct-1985 13:45 path-dirname-f50c33d0
+X10106249 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 parent-module-05084660
+X10106556 -rwxrwxrwx     0      0      1574 28-Mar-2020 10:08 object-assign-f6e87dc3
+X10106614 -rwxrwxrwx     0      0      7397 26-Oct-1985 13:45 punycode-c7e500bf
+X10107116 -rwxrwxrwx     0      0      1074 26-Oct-1985 13:45 nice-try-c3140e8b
+X10107140 -rwxrwxrwx     0      0      1582 28-Mar-2020 10:08 accepts-aca8aae7
+X10120412 -rwxrwxrwx     0      0        44  4-Jan-2018 01:41 minimalistic-assert-8318bfa0
+X10120544 -rwxrwxrwx     0      0      9402  5-Nov-2017 06:00 merge2-b4890bea
+X10226159 -rwxrwxrwx     0      0      1545 26-Oct-1985 13:45 jsonfile-d5c205b5
+X10226293 -rwxrwxrwx     0      0      2034 26-Oct-1985 13:45 jsbn-bb5d8c70
+X10226295 -rwxrwxrwx     0      0     71138 17-May-2019 19:34 supports-color-e942fd73
+X10226338 -rwxrwxrwx     0      0      2541 26-Oct-1985 13:45 jest-pnp-resolver-66cfba15
+X10226398 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 istanbul-lib-coverage-0d28c691
+X10226587 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 isexe-4877ac7e
+X10226701 -rwxrwxrwx     0      0      1951 13-Aug-2016 23:03 is-promise-9996af45
+X10226941 -rwxrwxrwx     0      0      1114 26-Oct-1985 13:45 extend-shallow-553323ce
+X10227127 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 has-flag-1e0d3efc
+X10227239 -rwxrwxrwx     0      0      3833 26-Oct-1985 13:45 aggregate-error-3bec9619
+X10227319 -rwxrwxrwx     0      0       797 26-Oct-1985 13:45 inherits-65b7221a
+X10227396 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 hsla-regex-1efef83e
+X10227447 -rwxrwxrwx     0      0      1886 26-Oct-1985 13:45 has-ansi-00ce29a6
+X10227582 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 ignore-ec3b819c
+X10227719 -rwxrwxrwx     0      0      6483 26-Oct-1985 13:45 get-caller-file-e3c72f87
+X10227744 -rwxrwxrwx     0      0      3060 18-Apr-2017 03:54 fs.realpath-c8ca0569
+X10228130 -rwxrwxrwx     0      0      4169 26-Oct-1985 13:45 estraverse-f7fdefb0
+X 271438 -rwxrwxrwx     0      0        45 17-Jul-2013 03:51 debug-3c28d3b8
+X 271713 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 kind-of-c0f3f3e7
+X 272157 -rwxrwxrwx     0      0       579 13-Feb-2018 21:47 cssnano-util-same-parent-54ae4318
+X 273063 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 connect-history-api-fallback-97b2dca0
+X 273172 -rwxrwxrwx     0      0        40 15-Jun-2017 05:46 commondir-b8f4f931
+X 275371 -rwxrwxrwx     0      0      4926 28-Mar-2020 10:08 braces-c38553e7
+X 277335 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 chardet-9eb40d79
+X 279033 -rwxrwxrwx     0      0       160  7-May-2017 07:48 browser-process-hrtime-33f76907
+X 279549 -rwxrwxrwx     0      0      1841 28-Mar-2020 10:08 aws4-efe38212
+X 279651 -rwxrwxrwx     0      0       309 26-Oct-1985 13:45 ast-types-flow-c055f492
+X 279898 -rwxrwxrwx     0      0      1078 26-Oct-1985 13:45 type-fest-2da0704a
+X 280042 -rwxrwxrwx     0      0       353  8-Sep-2015 01:03 acorn-6a8bc0ae
+X 280083 -rwxrwxrwx     0      0        29 25-Mar-2017 23:12 abab-e405e9d0
+X 280634 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 source-map-5b3e7fc6
+X9858014 -rwxrwxrwx     0      0      9216 26-Oct-1985 13:45 regenerator-transform-7b64be16
+X9972756 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 path-key-25d935b4
+X9972798 -rwxrwxrwx     0      0     32034 23-Aug-2018 01:30 p-locate-845c0292
+X9972988 -rwxrwxrwx     0      0      1081 26-Oct-1985 13:45 q-33751dd7
+X9973751 -rwxrwxrwx     0      0      1197 25-Jul-2017 12:28 postcss-value-parser-cd17916b
+X9973786 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 postcss-value-parser-de124bde
+X9973787 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 postcss-value-parser-705ebfee
+X9973830 -rwxrwxrwx     0      0      7777 25-Oct-2019 02:48 cssesc-ecc893e6
+X9973832 -rwxrwxrwx     0      0      6434 28-Mar-2018 10:47 postcss-value-parser-ce7b21cf
+X9985645 -rwxrwxrwx     0      0      1114 26-Oct-1985 13:45 loader-fs-cache-5338f481
+X9985785 -rwxrwxrwx     0      0      2180 24-May-2018 00:54 path-type-59ce10e6
+X9985879 -rwxrwxrwx     0      0      3781 11-Feb-2019 03:37 path-parse-4cbf785a
+X9985880 -rwxrwxrwx     0      0      2467 26-Oct-1985 13:45 npm-run-path-63297558
+X9985895 -rwxrwxrwx     0      0       209 29-May-2016 11:11 path-is-absolute-c235c06f
+X9985934 -rwxrwxrwx     0      0       158 26-Oct-1985 13:45 path-dirname-f50c33d0
+X10106249 drwxrwxrwx     0      0      4096 28-Mar-2020 10:08 parent-module-05084660
+X10106556 -rwxrwxrwx     0      0      1574 28-Mar-2020 10:08 object-assign-f6e87dc3
+Directory /home/thinkpad/Advanced Reactjs-Udemy
+ 4091329 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 .
+ 4066314 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:23 ..
+ 4912999 drwxrwxrwx  1000   1000      4096 24-Dec-2019 10:58 server
+ 4758200 drwxrwxrwx  1000   1000      4096 23-Dec-2019 15:55 Jest-demo
+ 8178268 drwxrwxrwx  1000   1000      4096 18-Mar-2020 15:11 test
+ 5017457 drwxrwxrwx  1000   1000      4096 27-Feb-2020 16:52 online-shopping
+ 4760547 drwxrwxrwx  1000   1000      4096 27-Dec-2019 17:49 e-commerce
+ 4761597 drwxrwxrwx     0      0      4096  5-Feb-2020 11:09 styled-component
+ 4114438 drwxrwxrwx  1000   1000      4096 15-Feb-2020 13:16 redux-saga-example
+X4855832 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 covid-19
+ 8389038 drwxrwxrwx  1000   1000      4096 11-Feb-2020 12:30 higher-order-components-demo
+ 4918234 drwxrwxrwx     0      0      4096 22-Feb-2020 11:36 portal-demo
+ 8427749 drwxrwxrwx     0      0      4096 23-Mar-2020 17:26 context-api
+ 6165462 drwxr-xr-x  1000   1000      4096 27-Mar-2020 11:56 mansi-blog
+  874597 drwxrwxrwx  1000   1000      4096 26-Feb-2020 12:23 Callback-React
+ 9050143 drwxrwxrwx     0      0      4096 26-Feb-2020 11:11 callbackreact-demo
+ 6819399 drwxrwxrwx     0      0      4096 29-Feb-2020 13:07 book-graphql
+ 5330234 drwxrwxrwx  1000   1000      4096 28-Feb-2020 17:22 fullstack-tutorial
+ 4078925 -rwxrwxrwx  1000   1000 139828793 16-Feb-2018 19:56 xampp-linux-x64-7.2.2-0-installer.run
+ 6038025 drwxrwxrwx     0      0      4096  5-Mar-2020 10:04 redux-demo
+ 4072418 drwxrwxrwx  1000   1000      4096  4-Mar-2020 18:04 hello-world-getsby
+ 6228405 drwxrwxrwx     0      0      4096  5-Mar-2020 16:23 higher-order-comp-demo
+ 4083477 drwxrwxrwx     0      0      4096  6-Mar-2020 12:53 counter-thunk-app
+ 5967804 drwxrwxrwx     0      0      4096  6-Mar-2020 18:06 usecallback-usememo
+ 8389029 drwxrwxrwx     0      0      4096  8-Mar-2020 11:21 async-thunk-app
+ 4129277 drwxrwxrwx  1000   1000      4096 18-Mar-2020 13:04 robofriends-redux
+ 4469148 drwxrwxrwx     0      0      4096 24-Mar-2020 18:11 react-questions
+ 4129872 drwxr-xr-x  1000   1000      4096 18-Mar-2020 13:13 Robofreinds-testcases-demo
+ 6722756 drwxrwxrwx     0      0      4096 19-Mar-2020 15:38 reactdocker
+ 5273293 drwxrwxrwx     0      0      4096 23-Mar-2020 14:25 redux-form
+ 5272833 drwxrwxrwx     0      0      4096 28-Mar-2020 19:01 slack-clone-app
+ 5394311 drwxrwxrwx     0      0      4096 31-Mar-2020 17:47 country-map
+ 4855397 drwxrwxrwx  1000   1000      4096  2-Apr-2020 21:08 COVID19-React
+
+dir_partition inode=4855832
+ 4 P Linux                 8366   3 22 29186  34 32  334475264
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 171 GB / 159 GiB
+Directory /home/thinkpad/Advanced Reactjs-Udemy/covid-19
+ 4855832 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 .
+ 4855511 drwxrwxrwx  1000   1000      4096  2-Apr-2020 18:25 ..
+X4855845 -rwxrwxrwx  1000   1000       196  2-Apr-2020 18:17 tmp_obj_yjXoBg
+ 4855833 -rwxrwxrwx  1000   1000       333  2-Apr-2020 18:17 b5e053450a48a6bdb4d71aad648e7af821975c
+ 4855845 -rwxrwxrwx  1000   1000       196  2-Apr-2020 18:17 b1a275a0ea7df518f17bcea5375abf003abe55
+X5789548 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 AccordionContext
+X5789550 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 AccordionToggle
+X7881132 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Alert
+X7881135 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Badge
+X8010029 -rw-r--r--     0      0         0  2-Apr-2020 16:06 BootstrapModalManager
+X8010149 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Breadcrumb
+X8010177 -rw-r--r--     0      0         0  2-Apr-2020 16:06 BreadcrumbItem
+X8010192 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Button
+X8010250 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ButtonGroup
+X8011004 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ButtonToolbar
+X8011009 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Card
+X8011011 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 CardColumns
+X8011013 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 CardContext
+X8011015 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 CardDeck
+X8011017 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 CardGroup
+X8011019 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 CardImg
+X8011021 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Carousel
+X8265385 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CarouselCaption
+X8265544 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CarouselItem
+X8268770 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CloseButton
+X8268868 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Col
+X8268906 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Collapse
+X8268962 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Container
+X8269636 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 createChainedFunction
+X8269638 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 createWithBsPrefix
+X8269640 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 divWithClassName
+X8269643 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Dropdown
+X8269648 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 DropdownButton
+X8269652 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 DropdownItem
+X8269656 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 DropdownMenu
+X8269658 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 DropdownToggle
+X8269664 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ElementChildren
+X8269666 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Fade
+X8269670 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Feedback
+X8269673 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Figure
+X8659727 -rw-rw-r--  1000   1000         0  2-Apr-2020 16:06 FigureCaption
+X8659729 -rw-rw-r--  1000   1000         0  2-Apr-2020 16:06 FigureImage
+X8659733 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Form
+X8659736 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormCheck
+X8659740 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormCheckInput
+X8659744 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormCheckLabel
+X8659828 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormContext
+X8659831 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormControl
+X8659833 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormFile
+X8659836 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormFileInput
+X8659841 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormFileLabel
+X8659845 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormGroup
+X8659847 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormLabel
+X8659851 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 FormText
+X8659856 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Image
+X8659860 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 InputGroup
+X8659864 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Jumbotron
+X8659868 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ListGroup
+X8659872 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ListGroupItem
+X8659879 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Media
+X8659886 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Modal
+X8659889 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalBody
+X8659891 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalContext
+X8659961 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalDialog
+X8660041 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalFooter
+X8660091 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalHeader
+X8660105 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ModalTitle
+X8660110 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Nav
+X8662346 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Navbar
+X8662348 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavbarBrand
+X8662350 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavbarCollapse
+X8662352 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavbarContext
+X8662354 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavbarToggle
+X8662356 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavContext
+X8662358 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavDropdown
+X8662360 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavItem
+X8662362 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 NavLink
+X8810994 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Overlay
+X8810996 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 OverlayTrigger
+X4866833 -rw-r--r--     0      0         0  2-Apr-2020 16:06 package.json
+X6191948 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 PageItem
+X6712730 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Pagination
+X6821783 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Popover
+X7221741 -rw-r--r--     0      0         0  2-Apr-2020 16:06 PopoverContent
+X7355449 -rw-r--r--     0      0         0  2-Apr-2020 16:06 PopoverTitle
+X7491276 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ProgressBar
+X7623980 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ResponsiveEmbed
+X7748392 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Row
+X7881150 -rw-r--r--     0      0         0  2-Apr-2020 16:06 SafeAnchor
+X8810998 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 SelectableContext
+X8811001 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Spinner
+X8811005 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 SplitButton
+X8811008 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Switch
+X8922169 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Tab
+X8939354 -rw-r--r--     0      0         0  2-Apr-2020 16:06 TabContainer
+X8939496 -rw-r--r--     0      0         0  2-Apr-2020 16:06 TabContent
+X8940605 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 TabContext
+X8940623 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Table
+X8940667 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 TabPane
+X8940808 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Tabs
+X8940813 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ThemeProvider
+X8940818 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Toast
+X8940820 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ToastBody
+X8940823 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ToastContext
+X8940826 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ToastHeader
+X8940829 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ToggleButton
+X8940832 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 ToggleButtonGroup
+X8940836 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 Tooltip
+X8940840 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 triggerBrowserReflow
+X8940842 drwxr-xr-x     0      0         0  2-Apr-2020 16:06 useWrappedRefWithWarning
+X4866904 -rw-r--r--     0      0         0  2-Apr-2020 16:06 README.md
+X4866908 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Accordion.d.ts
+X4866912 -rw-r--r--     0      0         0  2-Apr-2020 16:06 AccordionCollapse.d.ts
+X4866916 -rw-r--r--     0      0         0  2-Apr-2020 16:06 AccordionToggle.d.ts
+X4866922 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Alert.d.ts
+X4866926 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Badge.d.ts
+X4866930 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Breadcrumb.d.ts
+X4866934 -rw-r--r--     0      0         0  2-Apr-2020 16:06 BreadcrumbItem.d.ts
+X4866939 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Button.d.ts
+X4866943 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ButtonGroup.d.ts
+X4866947 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ButtonToolbar.d.ts
+X4866951 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Card.d.ts
+X4866956 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CardColumns.d.ts
+X4866960 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CardDeck.d.ts
+X4866964 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CardGroup.d.ts
+X4866968 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CardImg.d.ts
+X4866972 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Carousel.d.ts
+X4866976 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CarouselCaption.d.ts
+X4866980 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CarouselItem.d.ts
+X4866984 -rw-r--r--     0      0         0  2-Apr-2020 16:06 CloseButton.d.ts
+X4866988 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Col.d.ts
+X4866992 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Collapse.d.ts
+X4866997 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Container.d.ts
+X4867001 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Dropdown.d.ts
+X4867005 -rw-r--r--     0      0         0  2-Apr-2020 16:06 DropdownButton.d.ts
+X4867009 -rw-r--r--     0      0         0  2-Apr-2020 16:06 DropdownItem.d.ts
+X4867013 -rw-r--r--     0      0         0  2-Apr-2020 16:06 DropdownMenu.d.ts
+X4867017 -rw-r--r--     0      0         0  2-Apr-2020 16:06 DropdownToggle.d.ts
+X4867023 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Fade.d.ts
+X4867027 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Feedback.d.ts
+X4867031 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Figure.d.ts
+X4867035 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FigureCaption.d.ts
+X4867039 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FigureImage.d.ts
+X4867041 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Form.d.ts
+X4867045 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormCheck.d.ts
+X4867049 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormCheckInput.d.ts
+X4867051 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormCheckLabel.d.ts
+X4867056 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormControl.d.ts
+X4867060 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormFile.d.ts
+X4867064 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormFileInput.d.ts
+X4867068 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormFileLabel.d.ts
+X4867072 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormGroup.d.ts
+X4867076 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormLabel.d.ts
+X4867080 -rw-r--r--     0      0         0  2-Apr-2020 16:06 FormText.d.ts
+X4867084 -rw-r--r--     0      0         0  2-Apr-2020 16:06 helpers.d.ts
+X4867088 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Image.d.ts
+X4867092 -rw-r--r--     0      0         0  2-Apr-2020 16:06 index.d.ts
+X4867096 -rw-r--r--     0      0         0  2-Apr-2020 16:06 InputGroup.d.ts
+X4867100 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Jumbotron.d.ts
+X4867104 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ListGroup.d.ts
+X4867108 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ListGroupItem.d.ts
+X4867111 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Media.d.ts
+X4867115 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Modal.d.ts
+X4867119 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ModalBody.d.ts
+X4867123 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ModalDialog.d.ts
+X4867127 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ModalFooter.d.ts
+X4867131 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ModalHeader.d.ts
+X4867135 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ModalTitle.d.ts
+X4867139 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Nav.d.ts
+X4867143 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Navbar.d.ts
+X4867147 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavbarBrand.d.ts
+X4867151 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavbarCollapse.d.ts
+X4867155 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavbarToggle.d.ts
+X4867160 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavDropdown.d.ts
+X4867163 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavItem.d.ts
+X4867167 -rw-r--r--     0      0         0  2-Apr-2020 16:06 NavLink.d.ts
+X4867172 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Overlay.d.ts
+X4867176 -rw-r--r--     0      0         0  2-Apr-2020 16:06 OverlayTrigger.d.ts
+X4867179 -rw-r--r--     0      0         0  2-Apr-2020 16:06 PageItem.d.ts
+X4867181 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Pagination.d.ts
+X4867183 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Popover.d.ts
+X4867185 -rw-r--r--     0      0         0  2-Apr-2020 16:06 PopoverContent.d.ts
+X4867187 -rw-r--r--     0      0         0  2-Apr-2020 16:06 PopoverTitle.d.ts
+X4867189 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ProgressBar.d.ts
+X4867191 -rw-r--r--     0      0         0  2-Apr-2020 16:06 ResponsiveEmbed.d.ts
+X4867194 -rw-r--r--     0      0         0  2-Apr-2020 16:06 Row.d.ts
+Directory /home/thinkpad/Advanced Reactjs-Udemy
+ 4091329 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 .
+ 4066314 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:23 ..
+ 4912999 drwxrwxrwx  1000   1000      4096 24-Dec-2019 10:58 server
+ 4758200 drwxrwxrwx  1000   1000      4096 23-Dec-2019 15:55 Jest-demo
+ 8178268 drwxrwxrwx  1000   1000      4096 18-Mar-2020 15:11 test
+ 5017457 drwxrwxrwx  1000   1000      4096 27-Feb-2020 16:52 online-shopping
+ 4760547 drwxrwxrwx  1000   1000      4096 27-Dec-2019 17:49 e-commerce
+ 4761597 drwxrwxrwx     0      0      4096  5-Feb-2020 11:09 styled-component
+ 4114438 drwxrwxrwx  1000   1000      4096 15-Feb-2020 13:16 redux-saga-example
+X4855832 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 covid-19
+ 8389038 drwxrwxrwx  1000   1000      4096 11-Feb-2020 12:30 higher-order-components-demo
+ 4918234 drwxrwxrwx     0      0      4096 22-Feb-2020 11:36 portal-demo
+ 8427749 drwxrwxrwx     0      0      4096 23-Mar-2020 17:26 context-api
+ 6165462 drwxr-xr-x  1000   1000      4096 27-Mar-2020 11:56 mansi-blog
+  874597 drwxrwxrwx  1000   1000      4096 26-Feb-2020 12:23 Callback-React
+ 9050143 drwxrwxrwx     0      0      4096 26-Feb-2020 11:11 callbackreact-demo
+ 6819399 drwxrwxrwx     0      0      4096 29-Feb-2020 13:07 book-graphql
+ 5330234 drwxrwxrwx  1000   1000      4096 28-Feb-2020 17:22 fullstack-tutorial
+ 4078925 -rwxrwxrwx  1000   1000 139828793 16-Feb-2018 19:56 xampp-linux-x64-7.2.2-0-installer.run
+ 6038025 drwxrwxrwx     0      0      4096  5-Mar-2020 10:04 redux-demo
+ 4072418 drwxrwxrwx  1000   1000      4096  4-Mar-2020 18:04 hello-world-getsby
+ 6228405 drwxrwxrwx     0      0      4096  5-Mar-2020 16:23 higher-order-comp-demo
+ 4083477 drwxrwxrwx     0      0      4096  6-Mar-2020 12:53 counter-thunk-app
+ 5967804 drwxrwxrwx     0      0      4096  6-Mar-2020 18:06 usecallback-usememo
+ 8389029 drwxrwxrwx     0      0      4096  8-Mar-2020 11:21 async-thunk-app
+ 4129277 drwxrwxrwx  1000   1000      4096 18-Mar-2020 13:04 robofriends-redux
+ 4469148 drwxrwxrwx     0      0      4096 24-Mar-2020 18:11 react-questions
+ 4129872 drwxr-xr-x  1000   1000      4096 18-Mar-2020 13:13 Robofreinds-testcases-demo
+ 6722756 drwxrwxrwx     0      0      4096 19-Mar-2020 15:38 reactdocker
+ 5273293 drwxrwxrwx     0      0      4096 23-Mar-2020 14:25 redux-form
+ 5272833 drwxrwxrwx     0      0      4096 28-Mar-2020 19:01 slack-clone-app
+ 5394311 drwxrwxrwx     0      0      4096 31-Mar-2020 17:47 country-map
+ 4855397 drwxrwxrwx  1000   1000      4096  2-Apr-2020 21:08 COVID19-React
+Directory /home/thinkpad
+ 4066314 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:23 .
+ 4063233 drwxr-xr-x     0      0      4096 28-Aug-2019 16:22 ..
+ 4066315 -rw-r--r--  1000   1000      8980 28-Aug-2019 16:22 examples.desktop
+ 4066317 -rw-r--r--  1000   1000       807 28-Aug-2019 16:22 .profile
+ 4066329 -rw-r--r--  1000   1000      3771 28-Aug-2019 16:22 .bashrc
+ 4066331 -rw-r--r--  1000   1000       220 28-Aug-2019 16:22 .bash_logout
+ 4066336 drwx------  1000   1000      4096 28-Aug-2019 16:26 .gnupg
+ 4066338 drwx------  1000   1000      4096 27-Mar-2020 14:34 .cache
+ 4066341 drwx------  1000   1000      4096 28-Aug-2019 21:54 .local
+ 4197514 drwx------  1000   1000      4096 23-Mar-2020 13:56 .config
+ 4197520 drwxr-xr-x  1000   1000      4096  1-Apr-2020 21:46 Desktop
+ 5374113 drwxr-xr-x  1000   1000      4096 28-Aug-2019 21:54 Public
+ 4066996 -rw-------  1000   1000     68724  2-Apr-2020 17:14 .ICEauthority
+ 4327887 drwxr-xr-x  1000   1000     12288  2-Apr-2020 16:48 Downloads
+ 5374112 drwxr-xr-x  1000   1000      4096 28-Aug-2019 21:54 Templates
+ 5374114 drwxr-xr-x  1000   1000      4096  1-Feb-2020 14:28 Documents
+ 5374115 drwxr-xr-x  1000   1000      4096 28-Aug-2019 21:54 Music
+ 5374116 drwxr-xr-x  1000   1000      4096 30-Mar-2020 21:13 Pictures
+ 5374117 drwxr-xr-x  1000   1000      4096  6-Mar-2020 21:34 Videos
+ 5374137 drwx------  1000   1000      4096  4-Dec-2019 13:12 .thunderbird
+ 6030613 drwx------  1000   1000      4096 28-Aug-2019 21:55 .mozilla
+ 6031930 drwx------  1000   1000      4096 27-Dec-2019 13:04 .ssh
+ 4067001 -rw-r--r--  1000   1000  59170956 24-Aug-2019 03:56 google-chrome-stable_current_amd64.deb
+ 4067005 -rw-r--r--  1000   1000         0 28-Aug-2019 16:27 .sudo_as_admin_successful
+ 4067006 drwx------  1000   1000      4096 28-Aug-2019 16:27 .pki
+ 4067015 drwxrwxr-x  1000   1000      4096 16-Jan-2020 14:43 .vscode
+ 4067059 drwxr--r-x  1000   1000      4096 11-Nov-2019 10:15 reactApp
+ 4067061 drwxr-xr-x  1000   1000     65536  2-Apr-2020 18:16 .npm
+ 4067017 drwxr-xr-x  1000   1000      4096 11-Mar-2020 11:21 codecrunch -mansi
+ 4067094 drwx------     0      0      4096 28-Aug-2019 17:28 .dbus
+ 4067097 drwx------     0      0      4096 28-Aug-2019 17:28 .gvfs
+ 4063813 -rw-------  1000   1000     29923  2-Apr-2020 17:23 .bash_history
+ 4067092 drwxr-xr-x  1000   1000      4096  4-Feb-2020 15:43 snap
+ 4200552 drwx------  1000   1000      4096 29-Aug-2019 13:27 .gnome
+ 4063731 -rw-r--r--  1000   1000        68 26-Mar-2020 20:35 .gitconfig
+ 4099622 drwxr-xr-x  1000   1000      4096 30-Dec-2019 18:26 test
+ 4071953 drwxr-xr-x  1000   1000      4096 19-Feb-2020 12:57 Udemy
+ 4075073 drwx------  1000   1000      4096 19-Sep-2019 16:28 .dosbox
+ 4075076 -rw-r--r--  1000   1000     10723 19-Sep-2019 16:36 dosbox.conf
+ 4077097 -rw-r--r--  1000   1000     12288 27-Sep-2019 09:19 .npmrc.swp
+ 4101210 -rw-rw-r--  1000   1000      4242  1-Jan-2020 17:44 orgformat
+ 4104030 -rw-rw-r--  1000   1000     35220  9-Jan-2020 12:12 sinkpicsvg
+ 4077670 drwxr-xr-x     0      0      4096 28-Feb-2020 16:50 node_modules
+ 4077096 -rw-r--r--  1000   1000      1999 27-Sep-2019 09:19 .npmrc
+ 4077614 drwxr-xr-x  1000   1000      4096 10-Oct-2019 15:57 ScreenShot javascript games
+ 4083521 -rw-r--r--  1000   1000     59878 28-Feb-2020 16:11 package-lock.json
+ 4078726 -rw-r--r--  1000   1000    185353 10-Oct-2019 15:58 ScreenShot javascript games.zip
+ 4078772 drwxr-xr-x  1000   1000      4096 27-Mar-2020 14:38 .node-gyp
+ 4079522 drwxr-xr-x     0      0      4096 15-Oct-2019 13:16 .expo
+ 4087461 drwxr-xr-x  1000   1000      4096 30-Oct-2019 15:46 .anydesk
+ 4095304 drwx------  1000   1000      4096  4-Dec-2019 17:22 .netlify
+ 4091260 -rw-rw-r--  1000   1000      1286 16-Dec-2019 13:06 Profileprojects
+ 4091329 drwxrwxrwx  1000   1000      4096  2-Apr-2020 16:26 Advanced Reactjs-Udemy
+ 4094553 -rw-------  1000   1000         0 24-Dec-2019 11:37 .mongorc.js
+ 4097719 -rw-------  1000   1000         0 24-Dec-2019 11:39 .dbshell
+ 4104242 -rw-r--r--  1000   1000  14403438 17-Dec-2019 13:46 teamviewer_amd64.deb
+ 4104243 -rw-r--r--  1000   1000       257 12-Mar-2020 10:05 .wget-hsts
+ 4106771 drwxr-xr-x  1000   1000      4096 18-Jan-2020 16:09 Ecommerce
+ 4113449 -rw-------  1000   1000       210 17-Feb-2020 17:44 .netrc
+ 4129238 drwxr-xr-x  1000   1000      4096  6-Mar-2020 21:32 .gphoto
+ 4129725 -rw-r--r--  1000   1000  79721256  4-Mar-2020 20:51 skypeforlinux-64.deb
+ 4074658 -rw-r--r--  1000   1000  61298592 22-Aug-2019 02:52 slack-desktop-4.0.2-amd64.deb
+ 5930908 drwx------  1000   1000      4096 19-Mar-2020 15:51 .docker
+ 5273279 drwxr-xr-x  1000   1000      4096 23-Mar-2020 13:59 bin
+ 4063234 -rw-------  1000   1000       118 19-Mar-2020 13:23 .mysql_history
+ 4456504 drwxr-xr-x  1000   1000      4096 20-Mar-2020 12:34 Jaydip-realestate
+ 5273182 drwxr-xr-x  1000   1000      4096 23-Mar-2020 13:59 timedoctor
+ 4063729 -rw-r--r--  1000   1000      5082 27-Mar-2020 14:27 .v8flags.7.9.317.25-node.29.63a9f0ea7bb98050796b649e85481845.json
+ 4063738 -rw-r--r--  1000   1000      5082 27-Mar-2020 14:32 .v8flags.7.9.317.25-node.29.3b80a171380b579fd1bccaa6eb08efd6.json
+ 4063804 -rw-r--r--  1000   1000      2596  2-Apr-2020 17:23 testdisk.log
+ 4856169 drwxr-xr-x  1000   1000      4096  2-Apr-2020 17:03 mansi
+ 4063773 -rw-r--r--  1000   1000 381040640  2-Apr-2020 17:07 Adanced React.zip
+ 4063726 -rw-r--r--  1000   1000 1873173878  2-Apr-2020 17:29 Advanced Reactjs-Udemy.zip
+X4063813 -rw-------  1000   1000     29923  2-Apr-2020 17:23 .bash_history-04118.tmp
+SIGHUP detected! TestDisk has been killed.

@@ -1,3 +1,18 @@
+body {
+  overflow-x: hidden;
+}
+
+#visualization svg path[fill^='none'] {
+  stroke-width:0px;
+}
+
+path {
+  stroke: rgb(224, 138, 138);
+  stroke-width: 1;
+}
+#visualization path:hover { stroke: #e23028; stroke-width: 2; }
+
+
 .App {
   text-align: center;
 }
