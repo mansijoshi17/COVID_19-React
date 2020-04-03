@@ -5,6 +5,8 @@ import { FetchStates, getStateName } from '../Actions/index';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
+
 const google = window.google;
 
 class State extends React.Component {
@@ -61,7 +63,7 @@ class State extends React.Component {
                             <tbody>
                                 {this.props.StatesList ? this.props.StatesList.filter(state => this.props.search == "" || state.state.toLowerCase().includes(this.props.search)).map((state, index) => {
                                     return <tr key={index}>
-                                        <th scope="row"  onClick={() => {this.props.getStateName(state.state)}} style={{cursor:'pointer'}}><Link to={"/district"}>{state.state}</Link></th>
+                                        <th scope="row" onClick={() => { this.props.getStateName(state.state) }} style={{ cursor: 'pointer' }}><Link to={"/district"}>{state.state}</Link></th>
                                         <td>{state.confirmed}</td>
                                         <td>{state.active}</td>
                                         <td>{state.recovered}</td>
@@ -73,6 +75,13 @@ class State extends React.Component {
                     </div>
                     <div className="col-md-6">
                         <div id="visualization"> </div>
+                        <div className="mt-5">
+                            <TwitterTimelineEmbed
+                                sourceType="profile"
+                                screenName="COVID19Tracking"
+                                options={{ height: 600, width: 500 }}
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
