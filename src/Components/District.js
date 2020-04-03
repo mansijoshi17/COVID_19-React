@@ -13,15 +13,16 @@ class District extends React.Component {
 
     render() {
 
-        let data;
-        for (let x in this.props.DistrictsList) {
-            for (let x in this.props.DistrictsList[this.props.StatesName]) {
+        let x,data;
+        for ( x in this.props.DistrictsList) {
+            for ( x in this.props.DistrictsList[this.props.StatesName]) {
                 data = this.props.DistrictsList[this.props.StatesName][x]
             }
         }
+        // console.log(x);
 
-        const render = data ? Object.keys(data).filter(key => this.props.search == "" || key.toLowerCase().includes(this.props.search)).map(function (key) {
-            return <tr>
+        const render = data ? Object.keys(data).filter(key => this.props.search === "" || key.toLowerCase().includes(this.props.search)).map(function (key,index) {
+            return <tr key={index}>
                 <th scope="row">{key}</th>
                 <td>{data[key].confirmed}</td>
             </tr>
@@ -32,7 +33,7 @@ class District extends React.Component {
 
 
         return (
-            <div> <table class="table table-sm">
+            <div> <table className="table table-sm">
                 <thead>
                     <tr>
                         <th scope="col">DISTRICT</th>
